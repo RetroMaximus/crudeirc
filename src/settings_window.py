@@ -6,9 +6,11 @@ from src.server_details_manager import ServerDetailsManager
 
 class SettingsWindow:
 	_instance = None
-	def __init__(self, root, details_manager):
+	def __init__(self, root, details_manager, server_details, proxy_details):
 		
-		
+		self.server_details = server_details
+		self.proxy_details = proxy_details
+
 		self.proxy_list_dropdown = None
 		if SettingsWindow._instance is not None:
 			# Bring existing window to the top
@@ -16,7 +18,7 @@ class SettingsWindow:
 			SettingsWindow._instance.window.focus_set()
 			return
 		
-		self.server_details_manager = ServerDetailsManager(root)
+		self.server_details_manager = ServerDetailsManager(root, server_details, proxy_details)
 		
 		self.details_manager = details_manager
 		self.window = root
@@ -123,12 +125,13 @@ class SettingsWindow:
 		server_list_label = tk.Label(self.server_frame, text="Server List:")
 		server_list_label.grid(row=0, column=0, padx=10, pady=5)
 		
-		if 'servers' in self.server_details_manager.server_details:
+		if 'servers' in self.server_details_manager.server_details.keys():
 			server_names = list(self.server_details_manager.server_details['servers'].keys())
 		else:
 			server_names = []
 		
 		self.server_list_dropdown = ttk.Combobox(self.server_frame, values=server_names, state="readonly")
+		print(server_names)
 		self.server_list_dropdown.grid(row=0, column=1, padx=10, pady=5)
 		self.server_list_dropdown.bind("<<ComboboxSelected>>", self.populate_server_details)
 		
@@ -185,7 +188,7 @@ class SettingsWindow:
 	
 	def create_proxy_tab(self):
 		# Proxy settings on the proxy tab
-		if 'proxies' in self.server_details_manager.server_details:
+		if 'proxies' in self.server_details_manager.server_details.keys():
 			proxy_list = list(self.server_details_manager.server_details['proxies'].keys())
 		else:
 			proxy_list = []

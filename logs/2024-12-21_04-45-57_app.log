@@ -1,0 +1,19 @@
+2024-12-21 04:45:57 - Running application...
+Traceback (most recent call last):
+  File "/home/retro/Documents/crudeirc/crudeirc.py", line 1280, in <module>
+    app = CrudeIRC(root)
+          ^^^^^^^^^^^^^^
+  File "/home/retro/Documents/crudeirc/crudeirc.py", line 137, in __init__
+    self.server_details = self.active_details["active_details"]
+                          ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+KeyError: 'active_details'
+Traceback (most recent call last):
+  File "/home/retro/Documents/crudeirc/crudeirc.py", line 1280, in <module>
+    app = CrudeIRC(root)
+          ^^^^^^^^^^^^^^
+  File "/home/retro/Documents/crudeirc/crudeirc.py", line 137, in __init__
+    self.server_details = self.active_details["active_details"]
+                          ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+KeyError: 'active_details'
+2024-12-21 04:45:57 - Application finished. Waiting for user input before exiting...
+2024-12-21 04:46:19 - User pressed Enter. Exiting...

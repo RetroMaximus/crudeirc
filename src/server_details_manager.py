@@ -4,16 +4,13 @@ import os.path
 
 
 class ServerDetailsManager:
-    def __init__(self, gui_callbacks):
+    def __init__(self, gui_callbacks, server_details, proxy_details ):
         self.gui_callbacks = gui_callbacks
-        self.server_details = {
-            'servers': {}
-        }
-        self.proxy_details = {
-            'proxies': {}
-        }
-        self.load_server_details()
-        self.load_proxy_details()
+        self.server_details = server_details
+        self.proxy_details = proxy_details
+           
+        #self.load_server_details()
+        #self.load_proxy_details()
     
     def open_proxy_bouncer(self):
         self.gui_callbacks(self.gui_callbacks, self.gui_callbacks.details_manager).open_proxy_bouncer()
@@ -24,37 +21,42 @@ class ServerDetailsManager:
     
     def load_server_details(self):
         #print("Did I start loading servers?", f"{self.get_project_dir()}\\crude_server_details.json")
-        if os.path.exists(f"{self.get_project_dir()}\\crude_server_details.json"):
+        if os.path.exists(f"{self.get_project_dir()}/crude_server_details.json"):
             try:
-                with open(f"{self.get_project_dir()}\\crude_server_details.json", 'r') as f:
+                with open(f"{self.get_project_dir()}/crude_server_details.json", 'r') as f:
+
                     self.server_details = json.load(f)
+                    # print("server details", self.server_details)
                 #print("loading servers",self.server_details)
             except FileNotFoundError as e:
                 print("File not found", e)
                 pass  # Handle file not found error or initialize with default empty server dictionary
         else:
-            with open(f"{self.get_project_dir()}\\crude_server_details.json", 'w') as f:
+            print("cant find the server details file!!!! FIX THIS!!!")
+            with open(f"{self.get_project_dir()}/crude_server_details.json", 'w') as f:
                 json.dump(self.server_details, f, indent=4)
                 
     def load_proxy_details(self):
         #print("Did I start loading proxies?")
-        if os.path.exists(f"{self.get_project_dir()}\\crude_proxy_details.json"):
+        if os.path.exists(f"{self.get_project_dir()}/crude_proxy_details.json"):
             try:
-                with open(f"{self.get_project_dir()}\\crude_proxy_details.json", 'r') as f:
+                with open(f"{self.get_project_dir()}/crude_proxy_details.json", 'r') as f:
                     self.proxy_details = json.load(f)
                 #print("loading proxies?", self.proxy_details)
             except FileNotFoundError:
                 pass  # Handle file not found error or initialize with default empty proxy dictionary
         else:
-            with open(f"{self.get_project_dir()}\\crude_proxy_details.json", 'w') as f:
-                json.dump(self.proxy_details, f, indent=4)
+
+            print("cant find the server details file!!!! FIX THIS!!!")
+            with open(f"{self.get_project_dir()}/crude_proxy_details.json", 'w') as f:
+                json.dump(self.proxy_details, f, indent=5)
                 
     def save_proxy_details(self):
-        with open(f"{self.get_project_dir()}\\crude_proxy_details.json", 'w') as f:
+        with open(f"{self.get_project_dir()}/crude_proxy_details.json", 'w') as f:
             json.dump(self.proxy_details, f, indent=4)
     
     def save_server_details(self):
-        with open(f"{self.get_project_dir()}\\crude_proxy_details.json", 'w') as f:
+        with open(f"{self.get_project_dir()}/crude_server_details.json", 'w') as f:
             json.dump(self.server_details, f, indent=4)
 
     def get_server_details(self, selected_server):
@@ -71,6 +73,9 @@ class ServerDetailsManager:
     
     def get_active_details(self):
         return self.server_details.get('active_details', {})
+    
+    def get_active_proxy_details(self):
+        return self.proxy_details.get('proxy_details', {})
     
     def get_active_proxy_details(self):
         return self.server_details.get('active_details', {}).get('proxy_details', {})
