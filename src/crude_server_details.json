@@ -1,0 +1,35 @@
+{
+    "server_details": [],
+    "active_details": {
+        "show_traceback_results": true,
+        "show_username_addresses": false,
+        "show_server_addresses": true,
+        "show_server_response_type": false,
+        "name": "colonq",
+        "server": "colonq.computer",
+        "port": "26697",
+        "ssl": true,
+        "nickname": "retromaximus",
+        "username": "retromaximusplays",
+        "realname": "LIGMABAWS",
+        "auto_connect": true,
+        "proxy_details": {}
+    },
+    "servers": {
+        "colonq": {
+            "show_traceback_results": true,
+            "show_username_addresses": false,
+            "show_server_addresses": true,
+            "show_server_response_type": false,
+            "name": "colonq",
+            "server": "colonq.computer",
+            "port": "26697",
+            "ssl": true,
+            "nickname": "retromaximus",
+            "username": "retromaximusplays",
+            "realname": "LIGMABAWS",
+            "auto_connect": true,
+            "proxy_details": {}
+        }
+    }
+}

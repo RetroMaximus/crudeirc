@@ -1,0 +1,19 @@
+{
+    "detail_storage": {
+      "ignored_users": {},
+      "trusted_users": {},
+      "channel_mod_settings": {},
+      "friendly_colors": {
+        "LLLL Colonq": ["JetBrainsMono Nerd Font","#ffffff","bold,italics","broadcaster"],
+        "ellg": ["JetBrainsMono Nerd Font","#21a57e","bold,italics","client"],
+        "believer": ["JetBrainsMono Nerd Font","#31217a","bold,italics","moderator"],
+        "sammy": ["JetBrainsMono Nerd Font","#3a41b1","bold,italics","voiced"],
+        "jimmy": ["JetBrainsMono Nerd Font","#a2314c","bold,italics","client"],
+        "tom": ["JetBrainsMono Nerd Font","#3d3d3d","bold,italics","client"],
+        "brad": ["JetBrainsMono Nerd Font","#a2a2a2","bold,italics","client"]
+      },
+      "auto_ban_users": {
+        "tom": ["JetBrainsMono Nerd Font","#25371c","bold,italics","client"]
+      }
+    }
+}
