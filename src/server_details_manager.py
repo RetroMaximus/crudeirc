@@ -1,24 +1,35 @@
 # server_details_manager.py
 import json
 import os.path
-
+import logging
 
 class ServerDetailsManager:
     def __init__(self, gui_callbacks, server_details, proxy_details ):
         self.gui_callbacks = gui_callbacks
         self.server_details = server_details
         self.proxy_details = proxy_details
-           
-        #self.load_server_details()
-        #self.load_proxy_details()
+        logpath = self.get_project_dir()
+        
+        self.logger = logging
+
+        self.logger = self.logger.basicConfig(filename=f"'{logpath}/logs/logfile.log", level=logging.DEBUG, format="")
+        
+        self.load_server_details()
+        self.load_proxy_details()
     
     def open_proxy_bouncer(self):
         self.gui_callbacks(self.gui_callbacks, self.gui_callbacks.details_manager).open_proxy_bouncer()
     
     @staticmethod
     def get_project_dir():
-        return os.path.dirname(os.path.abspath(__file__))
-    
+        root_path = os.path.dirname(os.path.abspath(__file__))
+        #root_path = root_path.replace("/src","")
+        #print(root_path)
+        logging.info("Dir: {root_path}")
+        #return os.path.dirname(os.path.abspath(root_path))
+        return root_path
+
+
     def load_server_details(self):
         #print("Did I start loading servers?", f"{self.get_project_dir()}\\crude_server_details.json")
         if os.path.exists(f"{self.get_project_dir()}/crude_server_details.json"):
@@ -32,7 +43,6 @@ class ServerDetailsManager:
                 print("File not found", e)
                 pass  # Handle file not found error or initialize with default empty server dictionary
         else:
-            print("cant find the server details file!!!! FIX THIS!!!")
             with open(f"{self.get_project_dir()}/crude_server_details.json", 'w') as f:
                 json.dump(self.server_details, f, indent=4)
                 
@@ -46,8 +56,6 @@ class ServerDetailsManager:
             except FileNotFoundError:
                 pass  # Handle file not found error or initialize with default empty proxy dictionary
         else:
-
-            print("cant find the server details file!!!! FIX THIS!!!")
             with open(f"{self.get_project_dir()}/crude_proxy_details.json", 'w') as f:
                 json.dump(self.proxy_details, f, indent=5)
                 
@@ -81,7 +89,7 @@ class ServerDetailsManager:
         return self.server_details.get('active_details', {}).get('proxy_details', {})
     
     def is_proxy_enabled(self):
-        print(self.server_details.get('active_details', {}).get('proxy_details', {}).get('type', '') != "")
+        # print(self.server_details.get('active_details', {}).get('proxy_details', {}).get('type', '') != "")
         return self.server_details.get('active_details', {}).get('proxy_details', {}).get('type', '') != ""
     
     def set_proxy_details(self, proxy_name, details):
