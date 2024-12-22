@@ -1,3 +1,4 @@
+import os
 import atexit
 import ctypes
 import hashlib
@@ -18,6 +19,7 @@ from crude_irc_logic import CrudeClientIRCLogic
 from src.crude_proxy_bouncer import CrudeProxyBouncer
 from src.crude_launch_writer import CrudeLaunchWriter
 import traceback
+import logging
 import PIL
 from PIL import Image, ImageTk
 
@@ -49,7 +51,8 @@ def initialize_application(self):
         
 class CrudeIRC:
     def __init__(self, main_app):
-        
+        self.logpath = self.get_project_dir()
+        self.logger = logging.basicConfig(filename=f"'{self.logpath}/logs/logfile.log", level=logging.DEBUG, format="")
         self.colors = None
         
         self.hide_terminal_on_init = True  # Set this based on your configuration
@@ -132,6 +135,8 @@ class CrudeIRC:
 
 
         self.active_details = self.details_manager.get_active_details()
+        # print("active details:",self.active_details)
+
         self.active_proxy_details = self.details_manager.get_active_proxy_details()
         
         
@@ -572,9 +577,10 @@ class CrudeIRC:
             realname = active_details["realname"]
             auto_connect = active_details["auto_connect"]
             
-            #print(f"Connecting to {self.server} on port {self.port}")
-            self.irc_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-            self.irc_socket.connect((self.server, self.port))
+            print(f"Connecting to {self.server} on port {self.port}")
+            
+            #self.irc_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+            #self.irc_socket.connect((self.server, self.port))
             
             if self.details_manager.is_proxy_enabled() is True:
                 # Set up proxy if enabled
@@ -600,9 +606,9 @@ class CrudeIRC:
                 # Connect without proxy
                 self.irc_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
             
-            
-            #print(self.server, self.port)
-            self.irc_socket.connect((self.server, self.port))
+                print(self.server, self.port)
+                self.irc_socket.connect((self.server, int(self.port)))
+
             # Wrap socket if SSL is enabled
             if use_ssl:
                 context = ssl.create_default_context()
@@ -621,10 +627,21 @@ class CrudeIRC:
             if self.show_tracback_results is False:
                 self.response_buffers["Status"] += f"error - Connection failed: {e}\n"
             else:
-                self.response_buffers["Status"] += f"error - Connection failed: {e}\n{traceback.print_exc()}\n"
-            traceback.print_exc()
+                self.response_buffers["Status"] += f"error - Connection failed: {e}\n{traceback.print_exc(e)}\n"
+            
+            traceback.print_exc(e)
             self.update_text_area()
             self.connected = False
+
+    @staticmethod
+    def get_project_dir():
+        root_path = os.path.dirname(os.path.abspath(__file__))
+        root_path = root_path.replace("/src","")
+        #print(root_path)
+        logging.info("Dir: {root_path}")
+        #return os.path.dirname(os.path.abspath(root_path))
+        return root_path
+    
 
     def disconnect(self):
         if not self.connected:
