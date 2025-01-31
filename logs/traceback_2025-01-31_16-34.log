@@ -1,0 +1,920 @@
+2025-01-31 16:35:00,285 - INFO - Connecting to colonq.computer on port 26697
+2025-01-31 16:35:00,285 - INFO - colonq.computer 26697
+2025-01-31 16:35:00,286 - INFO - matching: <re.Match object; span=(2163, 2173), match='liquidcake'>
+2025-01-31 16:35:00,286 - INFO - matching: <re.Match object; span=(1946, 1953), match='discord'>
+2025-01-31 16:35:00,286 - INFO - matching: <re.Match object; span=(2182, 2196), match='a_tension_span'>
+2025-01-31 16:35:00,287 - INFO - matching: <re.Match object; span=(2197, 2203), match='demon_'>
+2025-01-31 16:35:00,287 - INFO - matching: <re.Match object; span=(2204, 2210), match='zfnmxt'>
+2025-01-31 16:35:00,288 - INFO - matching: <re.Match object; span=(2211, 2215), match='Kiri'>
+2025-01-31 16:35:00,288 - INFO - matching: <re.Match object; span=(2216, 2228), match='johnhamelink'>
+2025-01-31 16:35:00,289 - INFO - matching: <re.Match object; span=(2229, 2231), match='cn'>
+2025-01-31 16:35:00,289 - INFO - matching: <re.Match object; span=(2232, 2244), match='bigbookofbug'>
+2025-01-31 16:35:00,290 - INFO - matching: None
+2025-01-31 16:35:00,291 - INFO - matching: <re.Match object; span=(2254, 2258), match='ellg'>
+2025-01-31 16:35:00,291 - INFO - matching: <re.Match object; span=(2259, 2267), match='krzysckh'>
+2025-01-31 16:35:00,292 - INFO - matching: None
+2025-01-31 16:35:00,292 - INFO - matching: <re.Match object; span=(2274, 2279), match='k4noi'>
+2025-01-31 16:35:00,293 - INFO - matching: <re.Match object; span=(2280, 2285), match='rugan'>
+2025-01-31 16:35:00,293 - INFO - matching: <re.Match object; span=(74, 91), match='retromaximusplays'>
+2025-01-31 16:35:00,294 - INFO - matching: <re.Match object; span=(2304, 2313), match='freedrull'>
+2025-01-31 16:35:00,295 - INFO - matching: <re.Match object; span=(2314, 2321), match='lucasta'>
+2025-01-31 16:35:00,296 - INFO - matching: <re.Match object; span=(2322, 2327), match='raggi'>
+2025-01-31 16:35:00,298 - INFO - matching: <re.Match object; span=(2328, 2333), match='vance'>
+2025-01-31 16:35:00,298 - INFO - matching: <re.Match object; span=(2334, 2341), match='fenriz8'>
+2025-01-31 16:35:00,299 - INFO - matching: <re.Match object; span=(2342, 2346), match='ellb'>
+2025-01-31 16:35:00,300 - INFO - matching: <re.Match object; span=(2347, 2360), match='FOSSUnleashed'>
+2025-01-31 16:35:00,301 - INFO - matching: <re.Match object; span=(2361, 2365), match='lumi'>
+2025-01-31 16:35:00,303 - INFO - matching: <re.Match object; span=(2366, 2376), match='siftycat__'>
+2025-01-31 16:35:00,304 - INFO - matching: <re.Match object; span=(2377, 2384), match='sandbox'>
+2025-01-31 16:35:00,304 - INFO - two part: server
+2025-01-31 16:35:00,306 - INFO - matching: <re.Match object; span=(2163, 2173), match='liquidcake'>
+2025-01-31 16:35:00,307 - INFO - matching: <re.Match object; span=(1946, 1953), match='discord'>
+2025-01-31 16:35:00,307 - INFO - matching: <re.Match object; span=(2182, 2196), match='a_tension_span'>
+2025-01-31 16:35:00,308 - INFO - matching: <re.Match object; span=(2197, 2203), match='demon_'>
+2025-01-31 16:35:00,309 - INFO - matching: <re.Match object; span=(2204, 2210), match='zfnmxt'>
+2025-01-31 16:35:00,310 - INFO - matching: <re.Match object; span=(2211, 2215), match='Kiri'>
+2025-01-31 16:35:00,311 - INFO - matching: <re.Match object; span=(2216, 2228), match='johnhamelink'>
+2025-01-31 16:35:00,312 - INFO - matching: <re.Match object; span=(2229, 2231), match='cn'>
+2025-01-31 16:35:00,313 - INFO - matching: <re.Match object; span=(2232, 2244), match='bigbookofbug'>
+2025-01-31 16:35:00,314 - INFO - matching: None
+2025-01-31 16:35:00,315 - INFO - matching: <re.Match object; span=(2254, 2258), match='ellg'>
+2025-01-31 16:35:00,316 - INFO - matching: <re.Match object; span=(2259, 2267), match='krzysckh'>
+2025-01-31 16:35:00,317 - INFO - matching: None
+2025-01-31 16:35:00,318 - INFO - matching: <re.Match object; span=(2274, 2279), match='k4noi'>
+2025-01-31 16:35:00,318 - INFO - matching: <re.Match object; span=(2280, 2285), match='rugan'>
+2025-01-31 16:35:00,319 - INFO - matching: <re.Match object; span=(74, 91), match='retromaximusplays'>
+2025-01-31 16:35:00,320 - INFO - matching: <re.Match object; span=(2304, 2313), match='freedrull'>
+2025-01-31 16:35:00,321 - INFO - matching: <re.Match object; span=(2314, 2321), match='lucasta'>
+2025-01-31 16:35:00,322 - INFO - matching: <re.Match object; span=(2322, 2327), match='raggi'>
+2025-01-31 16:35:00,323 - INFO - matching: <re.Match object; span=(2328, 2333), match='vance'>
+2025-01-31 16:35:00,324 - INFO - matching: <re.Match object; span=(2334, 2341), match='fenriz8'>
+2025-01-31 16:35:00,325 - INFO - matching: <re.Match object; span=(2342, 2346), match='ellb'>
+2025-01-31 16:35:00,326 - INFO - matching: <re.Match object; span=(2347, 2360), match='FOSSUnleashed'>
+2025-01-31 16:35:00,327 - INFO - matching: <re.Match object; span=(2361, 2365), match='lumi'>
+2025-01-31 16:35:00,327 - INFO - matching: <re.Match object; span=(2366, 2376), match='siftycat__'>
+2025-01-31 16:35:00,328 - INFO - matching: <re.Match object; span=(2377, 2384), match='sandbox'>
+2025-01-31 16:35:00,330 - INFO - matching: <re.Match object; span=(2163, 2173), match='liquidcake'>
+2025-01-31 16:35:00,330 - INFO - matching: <re.Match object; span=(1946, 1953), match='discord'>
+2025-01-31 16:35:00,332 - INFO - matching: <re.Match object; span=(2182, 2196), match='a_tension_span'>
+2025-01-31 16:35:00,332 - INFO - matching: <re.Match object; span=(2197, 2203), match='demon_'>
+2025-01-31 16:35:00,333 - INFO - matching: <re.Match object; span=(2204, 2210), match='zfnmxt'>
+2025-01-31 16:35:00,334 - INFO - matching: <re.Match object; span=(2211, 2215), match='Kiri'>
+2025-01-31 16:35:00,335 - INFO - matching: <re.Match object; span=(2216, 2228), match='johnhamelink'>
+2025-01-31 16:35:00,336 - INFO - matching: <re.Match object; span=(2229, 2231), match='cn'>
+2025-01-31 16:35:00,337 - INFO - matching: <re.Match object; span=(2232, 2244), match='bigbookofbug'>
+2025-01-31 16:35:00,338 - INFO - matching: None
+2025-01-31 16:35:00,339 - INFO - matching: <re.Match object; span=(2254, 2258), match='ellg'>
+2025-01-31 16:35:00,340 - INFO - matching: <re.Match object; span=(2259, 2267), match='krzysckh'>
+2025-01-31 16:35:00,341 - INFO - matching: None
+2025-01-31 16:35:00,342 - INFO - matching: <re.Match object; span=(2274, 2279), match='k4noi'>
+2025-01-31 16:35:00,343 - INFO - matching: <re.Match object; span=(2280, 2285), match='rugan'>
+2025-01-31 16:35:00,344 - INFO - matching: <re.Match object; span=(74, 91), match='retromaximusplays'>
+2025-01-31 16:35:00,344 - INFO - matching: <re.Match object; span=(2304, 2313), match='freedrull'>
+2025-01-31 16:35:00,345 - INFO - matching: <re.Match object; span=(2314, 2321), match='lucasta'>
+2025-01-31 16:35:00,346 - INFO - matching: <re.Match object; span=(2322, 2327), match='raggi'>
+2025-01-31 16:35:00,347 - INFO - matching: <re.Match object; span=(2328, 2333), match='vance'>
+2025-01-31 16:35:00,348 - INFO - matching: <re.Match object; span=(2334, 2341), match='fenriz8'>
+2025-01-31 16:35:00,349 - INFO - matching: <re.Match object; span=(2342, 2346), match='ellb'>
+2025-01-31 16:35:00,350 - INFO - matching: <re.Match object; span=(2347, 2360), match='FOSSUnleashed'>
+2025-01-31 16:35:00,351 - INFO - matching: <re.Match object; span=(2361, 2365), match='lumi'>
+2025-01-31 16:35:00,352 - INFO - matching: <re.Match object; span=(2366, 2376), match='siftycat__'>
+2025-01-31 16:35:00,353 - INFO - matching: <re.Match object; span=(2377, 2384), match='sandbox'>
+2025-01-31 16:35:00,354 - INFO - two part: server
+2025-01-31 16:35:00,355 - INFO - matching: <re.Match object; span=(2163, 2173), match='liquidcake'>
+2025-01-31 16:35:00,356 - INFO - matching: <re.Match object; span=(1946, 1953), match='discord'>
+2025-01-31 16:35:00,356 - INFO - matching: <re.Match object; span=(2182, 2196), match='a_tension_span'>
+2025-01-31 16:35:00,357 - INFO - matching: <re.Match object; span=(2197, 2203), match='demon_'>
+2025-01-31 16:35:00,358 - INFO - matching: <re.Match object; span=(2204, 2210), match='zfnmxt'>
+2025-01-31 16:35:00,359 - INFO - matching: <re.Match object; span=(2211, 2215), match='Kiri'>
+2025-01-31 16:35:00,360 - INFO - matching: <re.Match object; span=(2216, 2228), match='johnhamelink'>
+2025-01-31 16:35:00,361 - INFO - matching: <re.Match object; span=(2229, 2231), match='cn'>
+2025-01-31 16:35:00,362 - INFO - matching: <re.Match object; span=(2232, 2244), match='bigbookofbug'>
+2025-01-31 16:35:00,363 - INFO - matching: None
+2025-01-31 16:35:00,364 - INFO - matching: <re.Match object; span=(2254, 2258), match='ellg'>
+2025-01-31 16:35:00,365 - INFO - matching: <re.Match object; span=(2259, 2267), match='krzysckh'>
+2025-01-31 16:35:00,366 - INFO - matching: None
+2025-01-31 16:35:00,367 - INFO - matching: <re.Match object; span=(2274, 2279), match='k4noi'>
+2025-01-31 16:35:00,368 - INFO - matching: <re.Match object; span=(2280, 2285), match='rugan'>
+2025-01-31 16:35:00,368 - INFO - matching: <re.Match object; span=(74, 91), match='retromaximusplays'>
+2025-01-31 16:35:00,369 - INFO - matching: <re.Match object; span=(2304, 2313), match='freedrull'>
+2025-01-31 16:35:00,370 - INFO - matching: <re.Match object; span=(2314, 2321), match='lucasta'>
+2025-01-31 16:35:00,371 - INFO - matching: <re.Match object; span=(2322, 2327), match='raggi'>
+2025-01-31 16:35:00,372 - INFO - matching: <re.Match object; span=(2328, 2333), match='vance'>
+2025-01-31 16:35:00,373 - INFO - matching: <re.Match object; span=(2334, 2341), match='fenriz8'>
+2025-01-31 16:35:00,374 - INFO - matching: <re.Match object; span=(2342, 2346), match='ellb'>
+2025-01-31 16:35:00,374 - INFO - matching: <re.Match object; span=(2347, 2360), match='FOSSUnleashed'>
+2025-01-31 16:35:00,376 - INFO - matching: <re.Match object; span=(2361, 2365), match='lumi'>
+2025-01-31 16:35:00,377 - INFO - matching: <re.Match object; span=(2366, 2376), match='siftycat__'>
+2025-01-31 16:35:00,377 - INFO - matching: <re.Match object; span=(2377, 2384), match='sandbox'>
+2025-01-31 16:35:00,379 - INFO - matching: <re.Match object; span=(2163, 2173), match='liquidcake'>
+2025-01-31 16:35:00,379 - INFO - matching: <re.Match object; span=(1946, 1953), match='discord'>
+2025-01-31 16:35:00,380 - INFO - matching: <re.Match object; span=(2182, 2196), match='a_tension_span'>
+2025-01-31 16:35:00,381 - INFO - matching: <re.Match object; span=(2197, 2203), match='demon_'>
+2025-01-31 16:35:00,382 - INFO - matching: <re.Match object; span=(2204, 2210), match='zfnmxt'>
+2025-01-31 16:35:00,383 - INFO - matching: <re.Match object; span=(2211, 2215), match='Kiri'>
+2025-01-31 16:35:00,384 - INFO - matching: <re.Match object; span=(2216, 2228), match='johnhamelink'>
+2025-01-31 16:35:00,385 - INFO - matching: <re.Match object; span=(2229, 2231), match='cn'>
+2025-01-31 16:35:00,386 - INFO - matching: <re.Match object; span=(2232, 2244), match='bigbookofbug'>
+2025-01-31 16:35:00,387 - INFO - matching: None
+2025-01-31 16:35:00,388 - INFO - matching: <re.Match object; span=(2254, 2258), match='ellg'>
+2025-01-31 16:35:00,388 - INFO - matching: <re.Match object; span=(2259, 2267), match='krzysckh'>
+2025-01-31 16:35:00,389 - INFO - matching: None
+2025-01-31 16:35:00,390 - INFO - matching: <re.Match object; span=(2274, 2279), match='k4noi'>
+2025-01-31 16:35:00,391 - INFO - matching: <re.Match object; span=(2280, 2285), match='rugan'>
+2025-01-31 16:35:00,392 - INFO - matching: <re.Match object; span=(74, 91), match='retromaximusplays'>
+2025-01-31 16:35:00,393 - INFO - matching: <re.Match object; span=(2304, 2313), match='freedrull'>
+2025-01-31 16:35:00,394 - INFO - matching: <re.Match object; span=(2314, 2321), match='lucasta'>
+2025-01-31 16:35:00,395 - INFO - matching: <re.Match object; span=(2322, 2327), match='raggi'>
+2025-01-31 16:35:00,396 - INFO - matching: <re.Match object; span=(2328, 2333), match='vance'>
+2025-01-31 16:35:00,397 - INFO - matching: <re.Match object; span=(2334, 2341), match='fenriz8'>
+2025-01-31 16:35:00,398 - INFO - matching: <re.Match object; span=(2342, 2346), match='ellb'>
+2025-01-31 16:35:00,399 - INFO - matching: <re.Match object; span=(2347, 2360), match='FOSSUnleashed'>
+2025-01-31 16:35:00,400 - INFO - matching: <re.Match object; span=(2361, 2365), match='lumi'>
+2025-01-31 16:35:00,400 - INFO - matching: <re.Match object; span=(2366, 2376), match='siftycat__'>
+2025-01-31 16:35:00,402 - INFO - matching: <re.Match object; span=(2377, 2384), match='sandbox'>
+2025-01-31 16:35:00,402 - INFO - matching: <re.Match object; span=(2163, 2173), match='liquidcake'>
+2025-01-31 16:35:00,403 - INFO - matching: <re.Match object; span=(1946, 1953), match='discord'>
+2025-01-31 16:35:00,404 - INFO - matching: <re.Match object; span=(2182, 2196), match='a_tension_span'>
+2025-01-31 16:35:03,070 - INFO - matching: <re.Match object; span=(2197, 2203), match='demon_'>
+2025-01-31 16:35:03,071 - INFO - matching: <re.Match object; span=(2204, 2210), match='zfnmxt'>
+2025-01-31 16:35:03,072 - INFO - matching: <re.Match object; span=(2211, 2215), match='Kiri'>
+2025-01-31 16:35:03,073 - INFO - matching: <re.Match object; span=(2216, 2228), match='johnhamelink'>
+2025-01-31 16:35:03,073 - INFO - matching: <re.Match object; span=(2229, 2231), match='cn'>
+2025-01-31 16:35:03,074 - INFO - matching: <re.Match object; span=(2232, 2244), match='bigbookofbug'>
+2025-01-31 16:35:03,075 - INFO - matching: None
+2025-01-31 16:35:03,076 - INFO - matching: <re.Match object; span=(2254, 2258), match='ellg'>
+2025-01-31 16:35:03,076 - INFO - matching: <re.Match object; span=(2259, 2267), match='krzysckh'>
+2025-01-31 16:35:03,077 - INFO - matching: None
+2025-01-31 16:35:03,078 - INFO - matching: <re.Match object; span=(2274, 2279), match='k4noi'>
+2025-01-31 16:35:03,080 - INFO - matching: <re.Match object; span=(2280, 2285), match='rugan'>
+2025-01-31 16:35:03,081 - INFO - matching: <re.Match object; span=(74, 91), match='retromaximusplays'>
+2025-01-31 16:35:03,083 - INFO - matching: <re.Match object; span=(2304, 2313), match='freedrull'>
+2025-01-31 16:35:03,084 - INFO - matching: <re.Match object; span=(2314, 2321), match='lucasta'>
+2025-01-31 16:35:03,085 - INFO - matching: <re.Match object; span=(2322, 2327), match='raggi'>
+2025-01-31 16:35:03,085 - INFO - matching: <re.Match object; span=(2328, 2333), match='vance'>
+2025-01-31 16:35:03,087 - INFO - matching: <re.Match object; span=(2334, 2341), match='fenriz8'>
+2025-01-31 16:35:03,088 - INFO - matching: <re.Match object; span=(2342, 2346), match='ellb'>
+2025-01-31 16:35:03,089 - INFO - matching: <re.Match object; span=(2347, 2360), match='FOSSUnleashed'>
+2025-01-31 16:35:03,089 - INFO - matching: <re.Match object; span=(2361, 2365), match='lumi'>
+2025-01-31 16:35:03,090 - INFO - matching: <re.Match object; span=(2366, 2376), match='siftycat__'>
+2025-01-31 16:35:03,091 - INFO - matching: <re.Match object; span=(2377, 2384), match='sandbox'>
+2025-01-31 16:35:03,092 - INFO - matching: <re.Match object; span=(2163, 2173), match='liquidcake'>
+2025-01-31 16:35:03,092 - INFO - matching: <re.Match object; span=(1946, 1953), match='discord'>
+2025-01-31 16:35:03,093 - INFO - matching: <re.Match object; span=(2182, 2196), match='a_tension_span'>
+2025-01-31 16:35:03,094 - INFO - matching: <re.Match object; span=(2197, 2203), match='demon_'>
+2025-01-31 16:35:03,095 - INFO - matching: <re.Match object; span=(2204, 2210), match='zfnmxt'>
+2025-01-31 16:35:03,096 - INFO - matching: <re.Match object; span=(2211, 2215), match='Kiri'>
+2025-01-31 16:35:03,097 - INFO - matching: <re.Match object; span=(2216, 2228), match='johnhamelink'>
+2025-01-31 16:35:03,097 - INFO - matching: <re.Match object; span=(2229, 2231), match='cn'>
+2025-01-31 16:35:03,098 - INFO - matching: <re.Match object; span=(2232, 2244), match='bigbookofbug'>
+2025-01-31 16:35:03,099 - INFO - matching: None
+2025-01-31 16:35:03,100 - INFO - matching: <re.Match object; span=(2254, 2258), match='ellg'>
+2025-01-31 16:35:03,100 - INFO - matching: <re.Match object; span=(2259, 2267), match='krzysckh'>
+2025-01-31 16:35:03,101 - INFO - matching: None
+2025-01-31 16:35:03,102 - INFO - matching: <re.Match object; span=(2274, 2279), match='k4noi'>
+2025-01-31 16:35:03,103 - INFO - matching: <re.Match object; span=(2280, 2285), match='rugan'>
+2025-01-31 16:35:03,103 - INFO - matching: <re.Match object; span=(74, 91), match='retromaximusplays'>
+2025-01-31 16:35:03,104 - INFO - matching: <re.Match object; span=(2304, 2313), match='freedrull'>
+2025-01-31 16:35:03,105 - INFO - matching: <re.Match object; span=(2314, 2321), match='lucasta'>
+2025-01-31 16:35:03,106 - INFO - matching: <re.Match object; span=(2322, 2327), match='raggi'>
+2025-01-31 16:35:03,107 - INFO - matching: <re.Match object; span=(2328, 2333), match='vance'>
+2025-01-31 16:35:03,108 - INFO - matching: <re.Match object; span=(2334, 2341), match='fenriz8'>
+2025-01-31 16:35:03,109 - INFO - matching: <re.Match object; span=(2342, 2346), match='ellb'>
+2025-01-31 16:35:03,112 - INFO - matching: <re.Match object; span=(2347, 2360), match='FOSSUnleashed'>
+2025-01-31 16:35:03,113 - INFO - matching: <re.Match object; span=(2361, 2365), match='lumi'>
+2025-01-31 16:35:03,114 - INFO - matching: <re.Match object; span=(2366, 2376), match='siftycat__'>
+2025-01-31 16:35:03,115 - INFO - matching: <re.Match object; span=(2377, 2384), match='sandbox'>
+2025-01-31 16:35:03,116 - INFO - two part: server
+2025-01-31 16:35:03,116 - INFO - matching: <re.Match object; span=(2163, 2173), match='liquidcake'>
+2025-01-31 16:35:03,117 - INFO - matching: <re.Match object; span=(1946, 1953), match='discord'>
+2025-01-31 16:35:03,118 - INFO - matching: <re.Match object; span=(2182, 2196), match='a_tension_span'>
+2025-01-31 16:35:03,118 - INFO - matching: <re.Match object; span=(2197, 2203), match='demon_'>
+2025-01-31 16:35:03,119 - INFO - matching: <re.Match object; span=(2204, 2210), match='zfnmxt'>
+2025-01-31 16:35:03,120 - INFO - matching: <re.Match object; span=(2211, 2215), match='Kiri'>
+2025-01-31 16:35:03,121 - INFO - matching: <re.Match object; span=(2216, 2228), match='johnhamelink'>
+2025-01-31 16:35:03,122 - INFO - matching: <re.Match object; span=(2229, 2231), match='cn'>
+2025-01-31 16:35:03,123 - INFO - matching: <re.Match object; span=(2232, 2244), match='bigbookofbug'>
+2025-01-31 16:35:03,123 - INFO - matching: None
+2025-01-31 16:35:03,124 - INFO - matching: <re.Match object; span=(2254, 2258), match='ellg'>
+2025-01-31 16:35:03,126 - INFO - matching: <re.Match object; span=(2259, 2267), match='krzysckh'>
+2025-01-31 16:35:03,127 - INFO - matching: None
+2025-01-31 16:35:03,129 - INFO - matching: <re.Match object; span=(2274, 2279), match='k4noi'>
+2025-01-31 16:35:03,131 - INFO - matching: <re.Match object; span=(2280, 2285), match='rugan'>
+2025-01-31 16:35:03,131 - INFO - matching: <re.Match object; span=(74, 91), match='retromaximusplays'>
+2025-01-31 16:35:03,132 - INFO - matching: <re.Match object; span=(2304, 2313), match='freedrull'>
+2025-01-31 16:35:03,133 - INFO - matching: <re.Match object; span=(2314, 2321), match='lucasta'>
+2025-01-31 16:35:03,133 - INFO - matching: <re.Match object; span=(2322, 2327), match='raggi'>
+2025-01-31 16:35:03,134 - INFO - matching: <re.Match object; span=(2328, 2333), match='vance'>
+2025-01-31 16:35:03,135 - INFO - matching: <re.Match object; span=(2334, 2341), match='fenriz8'>
+2025-01-31 16:35:03,136 - INFO - matching: <re.Match object; span=(2342, 2346), match='ellb'>
+2025-01-31 16:35:03,137 - INFO - matching: <re.Match object; span=(2347, 2360), match='FOSSUnleashed'>
+2025-01-31 16:35:03,137 - INFO - matching: <re.Match object; span=(2361, 2365), match='lumi'>
+2025-01-31 16:35:03,138 - INFO - matching: <re.Match object; span=(2366, 2376), match='siftycat__'>
+2025-01-31 16:35:03,139 - INFO - matching: <re.Match object; span=(2377, 2384), match='sandbox'>
+2025-01-31 16:35:03,140 - INFO - matching: <re.Match object; span=(2163, 2173), match='liquidcake'>
+2025-01-31 16:35:03,141 - INFO - matching: <re.Match object; span=(1946, 1953), match='discord'>
+2025-01-31 16:35:03,141 - INFO - matching: <re.Match object; span=(2182, 2196), match='a_tension_span'>
+2025-01-31 16:35:03,142 - INFO - matching: <re.Match object; span=(2197, 2203), match='demon_'>
+2025-01-31 16:35:03,143 - INFO - matching: <re.Match object; span=(2204, 2210), match='zfnmxt'>
+2025-01-31 16:35:03,144 - INFO - matching: <re.Match object; span=(2211, 2215), match='Kiri'>
+2025-01-31 16:35:03,144 - INFO - matching: <re.Match object; span=(2216, 2228), match='johnhamelink'>
+2025-01-31 16:35:03,145 - INFO - matching: <re.Match object; span=(2229, 2231), match='cn'>
+2025-01-31 16:35:03,146 - INFO - matching: <re.Match object; span=(2232, 2244), match='bigbookofbug'>
+2025-01-31 16:35:03,147 - INFO - matching: None
+2025-01-31 16:35:03,148 - INFO - matching: <re.Match object; span=(2254, 2258), match='ellg'>
+2025-01-31 16:35:03,148 - INFO - matching: <re.Match object; span=(2259, 2267), match='krzysckh'>
+2025-01-31 16:35:03,149 - INFO - matching: None
+2025-01-31 16:35:03,150 - INFO - matching: <re.Match object; span=(2274, 2279), match='k4noi'>
+2025-01-31 16:35:03,150 - INFO - matching: <re.Match object; span=(2280, 2285), match='rugan'>
+2025-01-31 16:35:03,151 - INFO - matching: <re.Match object; span=(74, 91), match='retromaximusplays'>
+2025-01-31 16:35:03,152 - INFO - matching: <re.Match object; span=(2304, 2313), match='freedrull'>
+2025-01-31 16:35:03,153 - INFO - matching: <re.Match object; span=(2314, 2321), match='lucasta'>
+2025-01-31 16:35:03,153 - INFO - matching: <re.Match object; span=(2322, 2327), match='raggi'>
+2025-01-31 16:35:03,154 - INFO - matching: <re.Match object; span=(2328, 2333), match='vance'>
+2025-01-31 16:35:03,155 - INFO - matching: <re.Match object; span=(2334, 2341), match='fenriz8'>
+2025-01-31 16:35:03,156 - INFO - matching: <re.Match object; span=(2342, 2346), match='ellb'>
+2025-01-31 16:35:03,157 - INFO - matching: <re.Match object; span=(2347, 2360), match='FOSSUnleashed'>
+2025-01-31 16:35:03,157 - INFO - matching: <re.Match object; span=(2361, 2365), match='lumi'>
+2025-01-31 16:35:03,158 - INFO - matching: <re.Match object; span=(2366, 2376), match='siftycat__'>
+2025-01-31 16:35:03,159 - INFO - matching: <re.Match object; span=(2377, 2384), match='sandbox'>
+2025-01-31 16:35:03,161 - INFO - matching: <re.Match object; span=(2163, 2173), match='liquidcake'>
+2025-01-31 16:35:03,162 - INFO - matching: <re.Match object; span=(1946, 1953), match='discord'>
+2025-01-31 16:35:03,163 - INFO - matching: <re.Match object; span=(2182, 2196), match='a_tension_span'>
+2025-01-31 16:35:03,163 - INFO - matching: <re.Match object; span=(2197, 2203), match='demon_'>
+2025-01-31 16:35:03,164 - INFO - matching: <re.Match object; span=(2204, 2210), match='zfnmxt'>
+2025-01-31 16:35:03,165 - INFO - matching: <re.Match object; span=(2211, 2215), match='Kiri'>
+2025-01-31 16:35:03,166 - INFO - matching: <re.Match object; span=(2216, 2228), match='johnhamelink'>
+2025-01-31 16:35:03,167 - INFO - matching: <re.Match object; span=(2229, 2231), match='cn'>
+2025-01-31 16:35:03,168 - INFO - matching: <re.Match object; span=(2232, 2244), match='bigbookofbug'>
+2025-01-31 16:35:03,169 - INFO - matching: None
+2025-01-31 16:35:03,170 - INFO - matching: <re.Match object; span=(2254, 2258), match='ellg'>
+2025-01-31 16:35:03,170 - INFO - matching: <re.Match object; span=(2259, 2267), match='krzysckh'>
+2025-01-31 16:35:03,171 - INFO - matching: None
+2025-01-31 16:35:03,172 - INFO - matching: <re.Match object; span=(2274, 2279), match='k4noi'>
+2025-01-31 16:35:03,173 - INFO - matching: <re.Match object; span=(2280, 2285), match='rugan'>
+2025-01-31 16:35:03,173 - INFO - matching: <re.Match object; span=(74, 91), match='retromaximusplays'>
+2025-01-31 16:35:03,174 - INFO - matching: <re.Match object; span=(2304, 2313), match='freedrull'>
+2025-01-31 16:35:03,175 - INFO - matching: <re.Match object; span=(2314, 2321), match='lucasta'>
+2025-01-31 16:35:03,176 - INFO - matching: <re.Match object; span=(2322, 2327), match='raggi'>
+2025-01-31 16:35:03,177 - INFO - matching: <re.Match object; span=(2328, 2333), match='vance'>
+2025-01-31 16:35:03,178 - INFO - matching: <re.Match object; span=(2334, 2341), match='fenriz8'>
+2025-01-31 16:35:03,178 - INFO - matching: <re.Match object; span=(2342, 2346), match='ellb'>
+2025-01-31 16:35:03,179 - INFO - matching: <re.Match object; span=(2347, 2360), match='FOSSUnleashed'>
+2025-01-31 16:35:03,180 - INFO - matching: <re.Match object; span=(2361, 2365), match='lumi'>
+2025-01-31 16:35:03,181 - INFO - matching: <re.Match object; span=(2366, 2376), match='siftycat__'>
+2025-01-31 16:35:03,181 - INFO - matching: <re.Match object; span=(2377, 2384), match='sandbox'>
+2025-01-31 16:35:03,182 - INFO - matching: <re.Match object; span=(2163, 2173), match='liquidcake'>
+2025-01-31 16:35:03,183 - INFO - matching: <re.Match object; span=(1946, 1953), match='discord'>
+2025-01-31 16:35:03,184 - INFO - matching: <re.Match object; span=(2182, 2196), match='a_tension_span'>
+2025-01-31 16:35:03,185 - INFO - matching: <re.Match object; span=(2197, 2203), match='demon_'>
+2025-01-31 16:35:03,185 - INFO - matching: <re.Match object; span=(2204, 2210), match='zfnmxt'>
+2025-01-31 16:35:03,186 - INFO - matching: <re.Match object; span=(2211, 2215), match='Kiri'>
+2025-01-31 16:35:03,187 - INFO - matching: <re.Match object; span=(2216, 2228), match='johnhamelink'>
+2025-01-31 16:35:07,497 - INFO - matching: <re.Match object; span=(2229, 2231), match='cn'>
+2025-01-31 16:35:07,499 - INFO - matching: <re.Match object; span=(2232, 2244), match='bigbookofbug'>
+2025-01-31 16:35:07,500 - INFO - matching: None
+2025-01-31 16:35:07,501 - INFO - matching: <re.Match object; span=(2254, 2258), match='ellg'>
+2025-01-31 16:35:07,502 - INFO - matching: <re.Match object; span=(2259, 2267), match='krzysckh'>
+2025-01-31 16:35:07,502 - INFO - matching: None
+2025-01-31 16:35:07,503 - INFO - matching: <re.Match object; span=(2274, 2279), match='k4noi'>
+2025-01-31 16:35:07,504 - INFO - matching: <re.Match object; span=(2280, 2285), match='rugan'>
+2025-01-31 16:35:07,505 - INFO - matching: <re.Match object; span=(74, 91), match='retromaximusplays'>
+2025-01-31 16:35:07,505 - INFO - matching: <re.Match object; span=(2304, 2313), match='freedrull'>
+2025-01-31 16:35:07,506 - INFO - matching: <re.Match object; span=(2314, 2321), match='lucasta'>
+2025-01-31 16:35:07,507 - INFO - matching: <re.Match object; span=(2322, 2327), match='raggi'>
+2025-01-31 16:35:07,508 - INFO - matching: <re.Match object; span=(2328, 2333), match='vance'>
+2025-01-31 16:35:07,508 - INFO - matching: <re.Match object; span=(2334, 2341), match='fenriz8'>
+2025-01-31 16:35:07,509 - INFO - matching: <re.Match object; span=(2342, 2346), match='ellb'>
+2025-01-31 16:35:07,510 - INFO - matching: <re.Match object; span=(2347, 2360), match='FOSSUnleashed'>
+2025-01-31 16:35:07,511 - INFO - matching: <re.Match object; span=(2361, 2365), match='lumi'>
+2025-01-31 16:35:07,511 - INFO - matching: <re.Match object; span=(2366, 2376), match='siftycat__'>
+2025-01-31 16:35:07,512 - INFO - matching: <re.Match object; span=(2377, 2384), match='sandbox'>
+2025-01-31 16:35:07,513 - INFO - matching: <re.Match object; span=(2163, 2173), match='liquidcake'>
+2025-01-31 16:35:07,514 - INFO - matching: <re.Match object; span=(1946, 1953), match='discord'>
+2025-01-31 16:35:07,515 - INFO - matching: <re.Match object; span=(2182, 2196), match='a_tension_span'>
+2025-01-31 16:35:07,516 - INFO - matching: <re.Match object; span=(2197, 2203), match='demon_'>
+2025-01-31 16:35:07,517 - INFO - matching: <re.Match object; span=(2204, 2210), match='zfnmxt'>
+2025-01-31 16:35:07,517 - INFO - matching: <re.Match object; span=(2211, 2215), match='Kiri'>
+2025-01-31 16:35:07,518 - INFO - matching: <re.Match object; span=(2216, 2228), match='johnhamelink'>
+2025-01-31 16:35:07,519 - INFO - matching: <re.Match object; span=(2229, 2231), match='cn'>
+2025-01-31 16:35:07,520 - INFO - matching: <re.Match object; span=(2232, 2244), match='bigbookofbug'>
+2025-01-31 16:35:07,521 - INFO - matching: None
+2025-01-31 16:35:07,521 - INFO - matching: <re.Match object; span=(2254, 2258), match='ellg'>
+2025-01-31 16:35:07,522 - INFO - matching: <re.Match object; span=(2259, 2267), match='krzysckh'>
+2025-01-31 16:35:07,523 - INFO - matching: None
+2025-01-31 16:35:07,524 - INFO - matching: <re.Match object; span=(2274, 2279), match='k4noi'>
+2025-01-31 16:35:07,524 - INFO - matching: <re.Match object; span=(2280, 2285), match='rugan'>
+2025-01-31 16:35:07,525 - INFO - matching: <re.Match object; span=(74, 91), match='retromaximusplays'>
+2025-01-31 16:35:07,526 - INFO - matching: <re.Match object; span=(2304, 2313), match='freedrull'>
+2025-01-31 16:35:07,526 - INFO - matching: <re.Match object; span=(2314, 2321), match='lucasta'>
+2025-01-31 16:35:07,527 - INFO - matching: <re.Match object; span=(2322, 2327), match='raggi'>
+2025-01-31 16:35:07,528 - INFO - matching: <re.Match object; span=(2328, 2333), match='vance'>
+2025-01-31 16:35:07,529 - INFO - matching: <re.Match object; span=(2334, 2341), match='fenriz8'>
+2025-01-31 16:35:07,529 - INFO - matching: <re.Match object; span=(2342, 2346), match='ellb'>
+2025-01-31 16:35:07,530 - INFO - matching: <re.Match object; span=(2347, 2360), match='FOSSUnleashed'>
+2025-01-31 16:35:07,531 - INFO - matching: <re.Match object; span=(2361, 2365), match='lumi'>
+2025-01-31 16:35:07,532 - INFO - matching: <re.Match object; span=(2366, 2376), match='siftycat__'>
+2025-01-31 16:35:07,532 - INFO - matching: <re.Match object; span=(2377, 2384), match='sandbox'>
+2025-01-31 16:35:07,533 - INFO - matching: <re.Match object; span=(2163, 2173), match='liquidcake'>
+2025-01-31 16:35:07,534 - INFO - matching: <re.Match object; span=(1946, 1953), match='discord'>
+2025-01-31 16:35:07,535 - INFO - matching: <re.Match object; span=(2182, 2196), match='a_tension_span'>
+2025-01-31 16:35:07,535 - INFO - matching: <re.Match object; span=(2197, 2203), match='demon_'>
+2025-01-31 16:35:07,536 - INFO - matching: <re.Match object; span=(2204, 2210), match='zfnmxt'>
+2025-01-31 16:35:07,537 - INFO - matching: <re.Match object; span=(2211, 2215), match='Kiri'>
+2025-01-31 16:35:07,538 - INFO - matching: <re.Match object; span=(2216, 2228), match='johnhamelink'>
+2025-01-31 16:35:07,539 - INFO - matching: <re.Match object; span=(2229, 2231), match='cn'>
+2025-01-31 16:35:07,539 - INFO - matching: <re.Match object; span=(2232, 2244), match='bigbookofbug'>
+2025-01-31 16:35:07,540 - INFO - matching: None
+2025-01-31 16:35:07,541 - INFO - matching: <re.Match object; span=(2254, 2258), match='ellg'>
+2025-01-31 16:35:07,542 - INFO - matching: <re.Match object; span=(2259, 2267), match='krzysckh'>
+2025-01-31 16:35:07,542 - INFO - matching: None
+2025-01-31 16:35:07,543 - INFO - matching: <re.Match object; span=(2274, 2279), match='k4noi'>
+2025-01-31 16:35:07,544 - INFO - matching: <re.Match object; span=(2280, 2285), match='rugan'>
+2025-01-31 16:35:07,545 - INFO - matching: <re.Match object; span=(74, 91), match='retromaximusplays'>
+2025-01-31 16:35:07,545 - INFO - matching: <re.Match object; span=(2304, 2313), match='freedrull'>
+2025-01-31 16:35:07,546 - INFO - matching: <re.Match object; span=(2314, 2321), match='lucasta'>
+2025-01-31 16:35:07,547 - INFO - matching: <re.Match object; span=(2322, 2327), match='raggi'>
+2025-01-31 16:35:07,548 - INFO - matching: <re.Match object; span=(2328, 2333), match='vance'>
+2025-01-31 16:35:07,548 - INFO - matching: <re.Match object; span=(2334, 2341), match='fenriz8'>
+2025-01-31 16:35:07,549 - INFO - matching: <re.Match object; span=(2342, 2346), match='ellb'>
+2025-01-31 16:35:07,550 - INFO - matching: <re.Match object; span=(2347, 2360), match='FOSSUnleashed'>
+2025-01-31 16:35:07,551 - INFO - matching: <re.Match object; span=(2361, 2365), match='lumi'>
+2025-01-31 16:35:07,552 - INFO - matching: <re.Match object; span=(2366, 2376), match='siftycat__'>
+2025-01-31 16:35:07,552 - INFO - matching: <re.Match object; span=(2377, 2384), match='sandbox'>
+2025-01-31 16:35:07,553 - INFO - matching: <re.Match object; span=(2163, 2173), match='liquidcake'>
+2025-01-31 16:35:07,554 - INFO - matching: <re.Match object; span=(1946, 1953), match='discord'>
+2025-01-31 16:35:07,555 - INFO - matching: <re.Match object; span=(2182, 2196), match='a_tension_span'>
+2025-01-31 16:35:07,555 - INFO - matching: <re.Match object; span=(2197, 2203), match='demon_'>
+2025-01-31 16:35:07,556 - INFO - matching: <re.Match object; span=(2204, 2210), match='zfnmxt'>
+2025-01-31 16:35:07,557 - INFO - matching: <re.Match object; span=(2211, 2215), match='Kiri'>
+2025-01-31 16:35:07,558 - INFO - matching: <re.Match object; span=(2216, 2228), match='johnhamelink'>
+2025-01-31 16:35:07,559 - INFO - matching: <re.Match object; span=(2229, 2231), match='cn'>
+2025-01-31 16:35:07,559 - INFO - matching: <re.Match object; span=(2232, 2244), match='bigbookofbug'>
+2025-01-31 16:35:07,560 - INFO - matching: None
+2025-01-31 16:35:07,561 - INFO - matching: <re.Match object; span=(2254, 2258), match='ellg'>
+2025-01-31 16:35:07,562 - INFO - matching: <re.Match object; span=(2259, 2267), match='krzysckh'>
+2025-01-31 16:35:07,563 - INFO - matching: None
+2025-01-31 16:35:07,563 - INFO - matching: <re.Match object; span=(2274, 2279), match='k4noi'>
+2025-01-31 16:35:07,564 - INFO - matching: <re.Match object; span=(2280, 2285), match='rugan'>
+2025-01-31 16:35:07,565 - INFO - matching: <re.Match object; span=(74, 91), match='retromaximusplays'>
+2025-01-31 16:35:07,565 - INFO - matching: <re.Match object; span=(2304, 2313), match='freedrull'>
+2025-01-31 16:35:07,566 - INFO - matching: <re.Match object; span=(2314, 2321), match='lucasta'>
+2025-01-31 16:35:07,567 - INFO - matching: <re.Match object; span=(2322, 2327), match='raggi'>
+2025-01-31 16:35:07,568 - INFO - matching: <re.Match object; span=(2328, 2333), match='vance'>
+2025-01-31 16:35:07,568 - INFO - matching: <re.Match object; span=(2334, 2341), match='fenriz8'>
+2025-01-31 16:35:07,569 - INFO - matching: <re.Match object; span=(2342, 2346), match='ellb'>
+2025-01-31 16:35:07,570 - INFO - matching: <re.Match object; span=(2347, 2360), match='FOSSUnleashed'>
+2025-01-31 16:35:07,571 - INFO - matching: <re.Match object; span=(2361, 2365), match='lumi'>
+2025-01-31 16:35:07,572 - INFO - matching: <re.Match object; span=(2366, 2376), match='siftycat__'>
+2025-01-31 16:35:07,572 - INFO - matching: <re.Match object; span=(2377, 2384), match='sandbox'>
+2025-01-31 16:35:07,573 - INFO - matching: <re.Match object; span=(2163, 2173), match='liquidcake'>
+2025-01-31 16:35:07,574 - INFO - matching: <re.Match object; span=(1946, 1953), match='discord'>
+2025-01-31 16:35:07,575 - INFO - matching: <re.Match object; span=(2182, 2196), match='a_tension_span'>
+2025-01-31 16:35:07,575 - INFO - matching: <re.Match object; span=(2197, 2203), match='demon_'>
+2025-01-31 16:35:07,576 - INFO - matching: <re.Match object; span=(2204, 2210), match='zfnmxt'>
+2025-01-31 16:35:07,577 - INFO - matching: <re.Match object; span=(2211, 2215), match='Kiri'>
+2025-01-31 16:35:07,578 - INFO - matching: <re.Match object; span=(2216, 2228), match='johnhamelink'>
+2025-01-31 16:35:07,579 - INFO - matching: <re.Match object; span=(2229, 2231), match='cn'>
+2025-01-31 16:35:07,579 - INFO - matching: <re.Match object; span=(2232, 2244), match='bigbookofbug'>
+2025-01-31 16:35:07,580 - INFO - matching: None
+2025-01-31 16:35:07,581 - INFO - matching: <re.Match object; span=(2254, 2258), match='ellg'>
+2025-01-31 16:35:07,582 - INFO - matching: <re.Match object; span=(2259, 2267), match='krzysckh'>
+2025-01-31 16:35:07,582 - INFO - matching: None
+2025-01-31 16:35:07,583 - INFO - matching: <re.Match object; span=(2274, 2279), match='k4noi'>
+2025-01-31 16:35:07,584 - INFO - matching: <re.Match object; span=(2280, 2285), match='rugan'>
+2025-01-31 16:35:07,585 - INFO - matching: <re.Match object; span=(74, 91), match='retromaximusplays'>
+2025-01-31 16:35:07,585 - INFO - matching: <re.Match object; span=(2304, 2313), match='freedrull'>
+2025-01-31 16:35:07,586 - INFO - matching: <re.Match object; span=(2314, 2321), match='lucasta'>
+2025-01-31 16:35:07,587 - INFO - matching: <re.Match object; span=(2322, 2327), match='raggi'>
+2025-01-31 16:35:07,588 - INFO - matching: <re.Match object; span=(2328, 2333), match='vance'>
+2025-01-31 16:35:07,589 - INFO - matching: <re.Match object; span=(2334, 2341), match='fenriz8'>
+2025-01-31 16:35:07,589 - INFO - matching: <re.Match object; span=(2342, 2346), match='ellb'>
+2025-01-31 16:35:07,590 - INFO - matching: <re.Match object; span=(2347, 2360), match='FOSSUnleashed'>
+2025-01-31 16:35:07,591 - INFO - matching: <re.Match object; span=(2361, 2365), match='lumi'>
+2025-01-31 16:35:07,592 - INFO - matching: <re.Match object; span=(2366, 2376), match='siftycat__'>
+2025-01-31 16:35:07,592 - INFO - matching: <re.Match object; span=(2377, 2384), match='sandbox'>
+2025-01-31 16:35:07,593 - INFO - two part: server
+2025-01-31 16:35:07,594 - INFO - matching: <re.Match object; span=(2163, 2173), match='liquidcake'>
+2025-01-31 16:35:07,595 - INFO - matching: <re.Match object; span=(1946, 1953), match='discord'>
+2025-01-31 16:35:07,595 - INFO - matching: <re.Match object; span=(2182, 2196), match='a_tension_span'>
+2025-01-31 16:35:07,596 - INFO - matching: <re.Match object; span=(2197, 2203), match='demon_'>
+2025-01-31 16:35:07,597 - INFO - matching: <re.Match object; span=(2204, 2210), match='zfnmxt'>
+2025-01-31 16:35:07,598 - INFO - matching: <re.Match object; span=(2211, 2215), match='Kiri'>
+2025-01-31 16:35:07,599 - INFO - matching: <re.Match object; span=(2216, 2228), match='johnhamelink'>
+2025-01-31 16:35:07,599 - INFO - matching: <re.Match object; span=(2229, 2231), match='cn'>
+2025-01-31 16:35:07,600 - INFO - matching: <re.Match object; span=(2232, 2244), match='bigbookofbug'>
+2025-01-31 16:35:07,601 - INFO - matching: None
+2025-01-31 16:35:07,602 - INFO - matching: <re.Match object; span=(2254, 2258), match='ellg'>
+2025-01-31 16:35:07,603 - INFO - matching: <re.Match object; span=(2259, 2267), match='krzysckh'>
+2025-01-31 16:35:07,603 - INFO - matching: None
+2025-01-31 16:35:13,404 - INFO - matching: <re.Match object; span=(2274, 2279), match='k4noi'>
+2025-01-31 16:35:13,406 - INFO - matching: <re.Match object; span=(2280, 2285), match='rugan'>
+2025-01-31 16:35:13,407 - INFO - matching: <re.Match object; span=(74, 91), match='retromaximusplays'>
+2025-01-31 16:35:13,408 - INFO - matching: <re.Match object; span=(2304, 2313), match='freedrull'>
+2025-01-31 16:35:13,409 - INFO - matching: <re.Match object; span=(2314, 2321), match='lucasta'>
+2025-01-31 16:35:13,410 - INFO - matching: <re.Match object; span=(2322, 2327), match='raggi'>
+2025-01-31 16:35:13,411 - INFO - matching: <re.Match object; span=(2328, 2333), match='vance'>
+2025-01-31 16:35:13,412 - INFO - matching: <re.Match object; span=(2334, 2341), match='fenriz8'>
+2025-01-31 16:35:13,413 - INFO - matching: <re.Match object; span=(2342, 2346), match='ellb'>
+2025-01-31 16:35:13,413 - INFO - matching: <re.Match object; span=(2347, 2360), match='FOSSUnleashed'>
+2025-01-31 16:35:13,414 - INFO - matching: <re.Match object; span=(2361, 2365), match='lumi'>
+2025-01-31 16:35:13,415 - INFO - matching: <re.Match object; span=(2366, 2376), match='siftycat__'>
+2025-01-31 16:35:13,416 - INFO - matching: <re.Match object; span=(2377, 2384), match='sandbox'>
+2025-01-31 16:35:13,416 - INFO - matching: <re.Match object; span=(2163, 2173), match='liquidcake'>
+2025-01-31 16:35:13,417 - INFO - matching: <re.Match object; span=(1946, 1953), match='discord'>
+2025-01-31 16:35:13,418 - INFO - matching: <re.Match object; span=(2182, 2196), match='a_tension_span'>
+2025-01-31 16:35:13,419 - INFO - matching: <re.Match object; span=(2197, 2203), match='demon_'>
+2025-01-31 16:35:13,420 - INFO - matching: <re.Match object; span=(2204, 2210), match='zfnmxt'>
+2025-01-31 16:35:13,420 - INFO - matching: <re.Match object; span=(2211, 2215), match='Kiri'>
+2025-01-31 16:35:13,421 - INFO - matching: <re.Match object; span=(2216, 2228), match='johnhamelink'>
+2025-01-31 16:35:13,422 - INFO - matching: <re.Match object; span=(2229, 2231), match='cn'>
+2025-01-31 16:35:13,423 - INFO - matching: <re.Match object; span=(2232, 2244), match='bigbookofbug'>
+2025-01-31 16:35:13,423 - INFO - matching: None
+2025-01-31 16:35:13,424 - INFO - matching: <re.Match object; span=(2254, 2258), match='ellg'>
+2025-01-31 16:35:13,425 - INFO - matching: <re.Match object; span=(2259, 2267), match='krzysckh'>
+2025-01-31 16:35:13,426 - INFO - matching: None
+2025-01-31 16:35:13,426 - INFO - matching: <re.Match object; span=(2274, 2279), match='k4noi'>
+2025-01-31 16:35:13,427 - INFO - matching: <re.Match object; span=(2280, 2285), match='rugan'>
+2025-01-31 16:35:13,428 - INFO - matching: <re.Match object; span=(74, 91), match='retromaximusplays'>
+2025-01-31 16:35:13,429 - INFO - matching: <re.Match object; span=(2304, 2313), match='freedrull'>
+2025-01-31 16:35:13,429 - INFO - matching: <re.Match object; span=(2314, 2321), match='lucasta'>
+2025-01-31 16:35:13,430 - INFO - matching: <re.Match object; span=(2322, 2327), match='raggi'>
+2025-01-31 16:35:13,431 - INFO - matching: <re.Match object; span=(2328, 2333), match='vance'>
+2025-01-31 16:35:13,432 - INFO - matching: <re.Match object; span=(2334, 2341), match='fenriz8'>
+2025-01-31 16:35:13,433 - INFO - matching: <re.Match object; span=(2342, 2346), match='ellb'>
+2025-01-31 16:35:13,433 - INFO - matching: <re.Match object; span=(2347, 2360), match='FOSSUnleashed'>
+2025-01-31 16:35:13,434 - INFO - matching: <re.Match object; span=(2361, 2365), match='lumi'>
+2025-01-31 16:35:13,435 - INFO - matching: <re.Match object; span=(2366, 2376), match='siftycat__'>
+2025-01-31 16:35:13,436 - INFO - matching: <re.Match object; span=(2377, 2384), match='sandbox'>
+2025-01-31 16:35:13,436 - INFO - matching: <re.Match object; span=(2163, 2173), match='liquidcake'>
+2025-01-31 16:35:13,437 - INFO - matching: <re.Match object; span=(1946, 1953), match='discord'>
+2025-01-31 16:35:13,439 - INFO - matching: <re.Match object; span=(2182, 2196), match='a_tension_span'>
+2025-01-31 16:35:13,440 - INFO - matching: <re.Match object; span=(2197, 2203), match='demon_'>
+2025-01-31 16:35:13,441 - INFO - matching: <re.Match object; span=(2204, 2210), match='zfnmxt'>
+2025-01-31 16:35:13,442 - INFO - matching: <re.Match object; span=(2211, 2215), match='Kiri'>
+2025-01-31 16:35:13,442 - INFO - matching: <re.Match object; span=(2216, 2228), match='johnhamelink'>
+2025-01-31 16:35:13,443 - INFO - matching: <re.Match object; span=(2229, 2231), match='cn'>
+2025-01-31 16:35:13,444 - INFO - matching: <re.Match object; span=(2232, 2244), match='bigbookofbug'>
+2025-01-31 16:35:13,445 - INFO - matching: None
+2025-01-31 16:35:13,445 - INFO - matching: <re.Match object; span=(2254, 2258), match='ellg'>
+2025-01-31 16:35:13,446 - INFO - matching: <re.Match object; span=(2259, 2267), match='krzysckh'>
+2025-01-31 16:35:13,447 - INFO - matching: None
+2025-01-31 16:35:13,448 - INFO - matching: <re.Match object; span=(2274, 2279), match='k4noi'>
+2025-01-31 16:35:13,448 - INFO - matching: <re.Match object; span=(2280, 2285), match='rugan'>
+2025-01-31 16:35:13,449 - INFO - matching: <re.Match object; span=(74, 91), match='retromaximusplays'>
+2025-01-31 16:35:13,450 - INFO - matching: <re.Match object; span=(2304, 2313), match='freedrull'>
+2025-01-31 16:35:13,451 - INFO - matching: <re.Match object; span=(2314, 2321), match='lucasta'>
+2025-01-31 16:35:13,451 - INFO - matching: <re.Match object; span=(2322, 2327), match='raggi'>
+2025-01-31 16:35:13,452 - INFO - matching: <re.Match object; span=(2328, 2333), match='vance'>
+2025-01-31 16:35:13,453 - INFO - matching: <re.Match object; span=(2334, 2341), match='fenriz8'>
+2025-01-31 16:35:13,454 - INFO - matching: <re.Match object; span=(2342, 2346), match='ellb'>
+2025-01-31 16:35:13,454 - INFO - matching: <re.Match object; span=(2347, 2360), match='FOSSUnleashed'>
+2025-01-31 16:35:13,455 - INFO - matching: <re.Match object; span=(2361, 2365), match='lumi'>
+2025-01-31 16:35:13,456 - INFO - matching: <re.Match object; span=(2366, 2376), match='siftycat__'>
+2025-01-31 16:35:13,457 - INFO - matching: <re.Match object; span=(2377, 2384), match='sandbox'>
+2025-01-31 16:35:13,457 - INFO - matching: <re.Match object; span=(2163, 2173), match='liquidcake'>
+2025-01-31 16:35:13,458 - INFO - matching: <re.Match object; span=(1946, 1953), match='discord'>
+2025-01-31 16:35:13,459 - INFO - matching: <re.Match object; span=(2182, 2196), match='a_tension_span'>
+2025-01-31 16:35:13,460 - INFO - matching: <re.Match object; span=(2197, 2203), match='demon_'>
+2025-01-31 16:35:13,460 - INFO - matching: <re.Match object; span=(2204, 2210), match='zfnmxt'>
+2025-01-31 16:35:13,461 - INFO - matching: <re.Match object; span=(2211, 2215), match='Kiri'>
+2025-01-31 16:35:13,462 - INFO - matching: <re.Match object; span=(2216, 2228), match='johnhamelink'>
+2025-01-31 16:35:13,463 - INFO - matching: <re.Match object; span=(2229, 2231), match='cn'>
+2025-01-31 16:35:13,464 - INFO - matching: <re.Match object; span=(2232, 2244), match='bigbookofbug'>
+2025-01-31 16:35:13,464 - INFO - matching: None
+2025-01-31 16:35:13,465 - INFO - matching: <re.Match object; span=(2254, 2258), match='ellg'>
+2025-01-31 16:35:13,466 - INFO - matching: <re.Match object; span=(2259, 2267), match='krzysckh'>
+2025-01-31 16:35:13,467 - INFO - matching: None
+2025-01-31 16:35:13,467 - INFO - matching: <re.Match object; span=(2274, 2279), match='k4noi'>
+2025-01-31 16:35:13,468 - INFO - matching: <re.Match object; span=(2280, 2285), match='rugan'>
+2025-01-31 16:35:13,469 - INFO - matching: <re.Match object; span=(74, 91), match='retromaximusplays'>
+2025-01-31 16:35:13,470 - INFO - matching: <re.Match object; span=(2304, 2313), match='freedrull'>
+2025-01-31 16:35:13,471 - INFO - matching: <re.Match object; span=(2314, 2321), match='lucasta'>
+2025-01-31 16:35:13,471 - INFO - matching: <re.Match object; span=(2322, 2327), match='raggi'>
+2025-01-31 16:35:13,472 - INFO - matching: <re.Match object; span=(2328, 2333), match='vance'>
+2025-01-31 16:35:13,473 - INFO - matching: <re.Match object; span=(2334, 2341), match='fenriz8'>
+2025-01-31 16:35:13,474 - INFO - matching: <re.Match object; span=(2342, 2346), match='ellb'>
+2025-01-31 16:35:13,475 - INFO - matching: <re.Match object; span=(2347, 2360), match='FOSSUnleashed'>
+2025-01-31 16:35:13,475 - INFO - matching: <re.Match object; span=(2361, 2365), match='lumi'>
+2025-01-31 16:35:13,476 - INFO - matching: <re.Match object; span=(2366, 2376), match='siftycat__'>
+2025-01-31 16:35:13,477 - INFO - matching: <re.Match object; span=(2377, 2384), match='sandbox'>
+2025-01-31 16:35:13,478 - INFO - matching: <re.Match object; span=(2163, 2173), match='liquidcake'>
+2025-01-31 16:35:13,479 - INFO - matching: <re.Match object; span=(1946, 1953), match='discord'>
+2025-01-31 16:35:13,480 - INFO - matching: <re.Match object; span=(2182, 2196), match='a_tension_span'>
+2025-01-31 16:35:13,480 - INFO - matching: <re.Match object; span=(2197, 2203), match='demon_'>
+2025-01-31 16:35:13,481 - INFO - matching: <re.Match object; span=(2204, 2210), match='zfnmxt'>
+2025-01-31 16:35:13,482 - INFO - matching: <re.Match object; span=(2211, 2215), match='Kiri'>
+2025-01-31 16:35:13,483 - INFO - matching: <re.Match object; span=(2216, 2228), match='johnhamelink'>
+2025-01-31 16:35:13,484 - INFO - matching: <re.Match object; span=(2229, 2231), match='cn'>
+2025-01-31 16:35:13,484 - INFO - matching: <re.Match object; span=(2232, 2244), match='bigbookofbug'>
+2025-01-31 16:35:13,485 - INFO - matching: None
+2025-01-31 16:35:13,486 - INFO - matching: <re.Match object; span=(2254, 2258), match='ellg'>
+2025-01-31 16:35:13,487 - INFO - matching: <re.Match object; span=(2259, 2267), match='krzysckh'>
+2025-01-31 16:35:13,488 - INFO - matching: None
+2025-01-31 16:35:13,488 - INFO - matching: <re.Match object; span=(2274, 2279), match='k4noi'>
+2025-01-31 16:35:13,489 - INFO - matching: <re.Match object; span=(2280, 2285), match='rugan'>
+2025-01-31 16:35:13,490 - INFO - matching: <re.Match object; span=(74, 91), match='retromaximusplays'>
+2025-01-31 16:35:13,491 - INFO - matching: <re.Match object; span=(2304, 2313), match='freedrull'>
+2025-01-31 16:35:13,491 - INFO - matching: <re.Match object; span=(2314, 2321), match='lucasta'>
+2025-01-31 16:35:13,492 - INFO - matching: <re.Match object; span=(2322, 2327), match='raggi'>
+2025-01-31 16:35:13,493 - INFO - matching: <re.Match object; span=(2328, 2333), match='vance'>
+2025-01-31 16:35:13,494 - INFO - matching: <re.Match object; span=(2334, 2341), match='fenriz8'>
+2025-01-31 16:35:13,494 - INFO - matching: <re.Match object; span=(2342, 2346), match='ellb'>
+2025-01-31 16:35:13,495 - INFO - matching: <re.Match object; span=(2347, 2360), match='FOSSUnleashed'>
+2025-01-31 16:35:13,496 - INFO - matching: <re.Match object; span=(2361, 2365), match='lumi'>
+2025-01-31 16:35:13,497 - INFO - matching: <re.Match object; span=(2366, 2376), match='siftycat__'>
+2025-01-31 16:35:13,498 - INFO - matching: <re.Match object; span=(2377, 2384), match='sandbox'>
+2025-01-31 16:35:13,498 - INFO - matching: <re.Match object; span=(2163, 2173), match='liquidcake'>
+2025-01-31 16:35:13,499 - INFO - matching: <re.Match object; span=(1946, 1953), match='discord'>
+2025-01-31 16:35:13,500 - INFO - matching: <re.Match object; span=(2182, 2196), match='a_tension_span'>
+2025-01-31 16:35:13,501 - INFO - matching: <re.Match object; span=(2197, 2203), match='demon_'>
+2025-01-31 16:35:13,501 - INFO - matching: <re.Match object; span=(2204, 2210), match='zfnmxt'>
+2025-01-31 16:35:13,502 - INFO - matching: <re.Match object; span=(2211, 2215), match='Kiri'>
+2025-01-31 16:35:13,503 - INFO - matching: <re.Match object; span=(2216, 2228), match='johnhamelink'>
+2025-01-31 16:35:13,504 - INFO - matching: <re.Match object; span=(2229, 2231), match='cn'>
+2025-01-31 16:35:13,505 - INFO - matching: <re.Match object; span=(2232, 2244), match='bigbookofbug'>
+2025-01-31 16:35:13,506 - INFO - matching: None
+2025-01-31 16:35:13,507 - INFO - matching: <re.Match object; span=(2254, 2258), match='ellg'>
+2025-01-31 16:35:13,508 - INFO - matching: <re.Match object; span=(2259, 2267), match='krzysckh'>
+2025-01-31 16:35:13,508 - INFO - matching: None
+2025-01-31 16:35:13,509 - INFO - matching: <re.Match object; span=(2274, 2279), match='k4noi'>
+2025-01-31 16:35:13,510 - INFO - matching: <re.Match object; span=(2280, 2285), match='rugan'>
+2025-01-31 16:35:13,511 - INFO - matching: <re.Match object; span=(74, 91), match='retromaximusplays'>
+2025-01-31 16:35:13,512 - INFO - matching: <re.Match object; span=(2304, 2313), match='freedrull'>
+2025-01-31 16:56:32,369 - INFO - Connecting to colonq.computer on port 26697
+2025-01-31 16:56:32,371 - INFO - colonq.computer 26697
+2025-01-31 17:01:38,731 - ERROR - Exception in Tkinter callback
+2025-01-31 17:01:38,738 - ERROR - Traceback (most recent call last):
+2025-01-31 17:01:38,742 - ERROR - File "/usr/lib/python3.12/tkinter/__init__.py", line 1967, in __call__
+2025-01-31 17:01:38,743 - ERROR - return self.func(*args)
+2025-01-31 17:01:38,744 - ERROR - ^^^^^^^^^^^^^^^^
+2025-01-31 17:01:38,745 - ERROR - File "/home/retro/Documents/crudeirc/crudeirc.py", line 275, in <lambda>
+2025-01-31 17:01:38,747 - ERROR - self.root.bind("<F5>", lambda e: self.no_distractions())
+2025-01-31 17:01:38,747 - ERROR - ^^^^^^^^^^^^^^^^^^^^^^
+2025-01-31 17:01:38,748 - ERROR - File "/home/retro/Documents/crudeirc/crudeirc.py", line 317, in no_distractions
+2025-01-31 17:01:38,749 - ERROR - self.nickname_listbox.pack(side=tk.RIGHT, fill=tk.Y)
+2025-01-31 17:01:38,751 - ERROR - File "/usr/lib/python3.12/tkinter/__init__.py", line 2472, in pack_configure
+2025-01-31 17:01:38,752 - ERROR - self.tk.call(
+2025-01-31 17:01:38,753 - ERROR - _tkinter.TclError: cannot use geometry manager pack inside . which already has slaves managed by grid
+2025-01-31 17:01:40,129 - ERROR - Exception in Tkinter callback
+2025-01-31 17:01:40,131 - ERROR - Traceback (most recent call last):
+2025-01-31 17:01:40,132 - ERROR - File "/usr/lib/python3.12/tkinter/__init__.py", line 1967, in __call__
+2025-01-31 17:01:40,133 - ERROR - return self.func(*args)
+2025-01-31 17:01:40,134 - ERROR - ^^^^^^^^^^^^^^^^
+2025-01-31 17:01:40,135 - ERROR - File "/home/retro/Documents/crudeirc/crudeirc.py", line 275, in <lambda>
+2025-01-31 17:01:40,137 - ERROR - self.root.bind("<F5>", lambda e: self.no_distractions())
+2025-01-31 17:01:40,139 - ERROR - ^^^^^^^^^^^^^^^^^^^^^^
+2025-01-31 17:01:40,141 - ERROR - File "/home/retro/Documents/crudeirc/crudeirc.py", line 317, in no_distractions
+2025-01-31 17:01:40,143 - ERROR - self.nickname_listbox.pack(side=tk.RIGHT, fill=tk.Y)
+2025-01-31 17:01:40,144 - ERROR - File "/usr/lib/python3.12/tkinter/__init__.py", line 2472, in pack_configure
+2025-01-31 17:01:40,146 - ERROR - self.tk.call(
+2025-01-31 17:01:40,148 - ERROR - _tkinter.TclError: cannot use geometry manager pack inside . which already has slaves managed by grid
+2025-01-31 17:01:45,810 - ERROR - Exception in Tkinter callback
+2025-01-31 17:01:45,817 - ERROR - Traceback (most recent call last):
+2025-01-31 17:01:45,820 - ERROR - File "/usr/lib/python3.12/tkinter/__init__.py", line 1967, in __call__
+2025-01-31 17:01:45,822 - ERROR - return self.func(*args)
+2025-01-31 17:01:45,824 - ERROR - ^^^^^^^^^^^^^^^^
+2025-01-31 17:01:45,826 - ERROR - File "/home/retro/Documents/crudeirc/crudeirc.py", line 275, in <lambda>
+2025-01-31 17:01:45,828 - ERROR - self.root.bind("<F5>", lambda e: self.no_distractions())
+2025-01-31 17:01:45,830 - ERROR - ^^^^^^^^^^^^^^^^^^^^^^
+2025-01-31 17:01:45,832 - ERROR - File "/home/retro/Documents/crudeirc/crudeirc.py", line 317, in no_distractions
+2025-01-31 17:01:45,834 - ERROR - self.nickname_listbox.pack(side=tk.RIGHT, fill=tk.Y)
+2025-01-31 17:01:45,836 - ERROR - File "/usr/lib/python3.12/tkinter/__init__.py", line 2472, in pack_configure
+2025-01-31 17:01:45,837 - ERROR - self.tk.call(
+2025-01-31 17:01:45,840 - ERROR - _tkinter.TclError: cannot use geometry manager pack inside . which already has slaves managed by grid
+2025-01-31 17:01:47,021 - ERROR - Exception in Tkinter callback
+2025-01-31 17:01:47,024 - ERROR - Traceback (most recent call last):
+2025-01-31 17:01:47,026 - ERROR - File "/usr/lib/python3.12/tkinter/__init__.py", line 1967, in __call__
+2025-01-31 17:01:47,028 - ERROR - return self.func(*args)
+2025-01-31 17:01:47,030 - ERROR - ^^^^^^^^^^^^^^^^
+2025-01-31 17:01:47,031 - ERROR - File "/home/retro/Documents/crudeirc/crudeirc.py", line 275, in <lambda>
+2025-01-31 17:01:47,033 - ERROR - self.root.bind("<F5>", lambda e: self.no_distractions())
+2025-01-31 17:01:47,035 - ERROR - ^^^^^^^^^^^^^^^^^^^^^^
+2025-01-31 17:01:47,037 - ERROR - File "/home/retro/Documents/crudeirc/crudeirc.py", line 317, in no_distractions
+2025-01-31 17:01:47,039 - ERROR - self.nickname_listbox.pack(side=tk.RIGHT, fill=tk.Y)
+2025-01-31 17:01:47,041 - ERROR - File "/usr/lib/python3.12/tkinter/__init__.py", line 2472, in pack_configure
+2025-01-31 17:01:47,043 - ERROR - self.tk.call(
+2025-01-31 17:01:47,045 - ERROR - _tkinter.TclError: cannot use geometry manager pack inside . which already has slaves managed by grid
+2025-01-31 17:01:52,014 - ERROR - Exception in Tkinter callback
+2025-01-31 17:01:52,017 - ERROR - Traceback (most recent call last):
+2025-01-31 17:01:52,019 - ERROR - File "/usr/lib/python3.12/tkinter/__init__.py", line 1967, in __call__
+2025-01-31 17:01:52,021 - ERROR - return self.func(*args)
+2025-01-31 17:01:52,022 - ERROR - ^^^^^^^^^^^^^^^^
+2025-01-31 17:01:52,024 - ERROR - File "/home/retro/Documents/crudeirc/crudeirc.py", line 275, in <lambda>
+2025-01-31 17:01:52,026 - ERROR - self.root.bind("<F5>", lambda e: self.no_distractions())
+2025-01-31 17:01:52,028 - ERROR - ^^^^^^^^^^^^^^^^^^^^^^
+2025-01-31 17:01:52,030 - ERROR - File "/home/retro/Documents/crudeirc/crudeirc.py", line 317, in no_distractions
+2025-01-31 17:01:52,032 - ERROR - self.nickname_listbox.pack(side=tk.RIGHT, fill=tk.Y)
+2025-01-31 17:01:52,034 - ERROR - File "/usr/lib/python3.12/tkinter/__init__.py", line 2472, in pack_configure
+2025-01-31 17:01:52,036 - ERROR - self.tk.call(
+2025-01-31 17:01:52,038 - ERROR - _tkinter.TclError: cannot use geometry manager pack inside . which already has slaves managed by grid
+2025-01-31 17:02:16,104 - ERROR - Exception in Tkinter callback
+2025-01-31 17:02:16,110 - ERROR - Traceback (most recent call last):
+2025-01-31 17:02:16,113 - ERROR - File "/usr/lib/python3.12/tkinter/__init__.py", line 1967, in __call__
+2025-01-31 17:02:16,115 - ERROR - return self.func(*args)
+2025-01-31 17:02:16,117 - ERROR - ^^^^^^^^^^^^^^^^
+2025-01-31 17:02:16,119 - ERROR - File "/home/retro/Documents/crudeirc/crudeirc.py", line 275, in <lambda>
+2025-01-31 17:02:16,121 - ERROR - self.root.bind("<F5>", lambda e: self.no_distractions())
+2025-01-31 17:02:16,123 - ERROR - ^^^^^^^^^^^^^^^^^^^^^^
+2025-01-31 17:02:16,125 - ERROR - File "/home/retro/Documents/crudeirc/crudeirc.py", line 317, in no_distractions
+2025-01-31 17:02:16,127 - ERROR - self.nickname_listbox.pack(side=tk.RIGHT, fill=tk.Y)
+2025-01-31 17:02:16,129 - ERROR - File "/usr/lib/python3.12/tkinter/__init__.py", line 2472, in pack_configure
+2025-01-31 17:02:16,131 - ERROR - self.tk.call(
+2025-01-31 17:02:16,133 - ERROR - _tkinter.TclError: cannot use geometry manager pack inside . which already has slaves managed by grid
+2025-01-31 17:02:16,993 - ERROR - Exception in Tkinter callback
+2025-01-31 17:02:16,996 - ERROR - Traceback (most recent call last):
+2025-01-31 17:02:16,998 - ERROR - File "/usr/lib/python3.12/tkinter/__init__.py", line 1967, in __call__
+2025-01-31 17:02:17,000 - ERROR - return self.func(*args)
+2025-01-31 17:02:17,002 - ERROR - ^^^^^^^^^^^^^^^^
+2025-01-31 17:02:17,004 - ERROR - File "/home/retro/Documents/crudeirc/crudeirc.py", line 275, in <lambda>
+2025-01-31 17:02:17,006 - ERROR - self.root.bind("<F5>", lambda e: self.no_distractions())
+2025-01-31 17:02:17,008 - ERROR - ^^^^^^^^^^^^^^^^^^^^^^
+2025-01-31 17:02:17,010 - ERROR - File "/home/retro/Documents/crudeirc/crudeirc.py", line 317, in no_distractions
+2025-01-31 17:02:17,012 - ERROR - self.nickname_listbox.pack(side=tk.RIGHT, fill=tk.Y)
+2025-01-31 17:02:17,014 - ERROR - File "/usr/lib/python3.12/tkinter/__init__.py", line 2472, in pack_configure
+2025-01-31 17:02:17,016 - ERROR - self.tk.call(
+2025-01-31 17:02:17,018 - ERROR - _tkinter.TclError: cannot use geometry manager pack inside . which already has slaves managed by grid
+2025-01-31 17:02:18,169 - ERROR - Exception in Tkinter callback
+2025-01-31 17:02:18,171 - ERROR - Traceback (most recent call last):
+2025-01-31 17:02:18,173 - ERROR - File "/usr/lib/python3.12/tkinter/__init__.py", line 1967, in __call__
+2025-01-31 17:02:18,175 - ERROR - return self.func(*args)
+2025-01-31 17:02:18,177 - ERROR - ^^^^^^^^^^^^^^^^
+2025-01-31 17:02:18,179 - ERROR - File "/home/retro/Documents/crudeirc/crudeirc.py", line 275, in <lambda>
+2025-01-31 17:02:18,181 - ERROR - self.root.bind("<F5>", lambda e: self.no_distractions())
+2025-01-31 17:02:18,183 - ERROR - ^^^^^^^^^^^^^^^^^^^^^^
+2025-01-31 17:02:18,185 - ERROR - File "/home/retro/Documents/crudeirc/crudeirc.py", line 317, in no_distractions
+2025-01-31 17:02:18,187 - ERROR - self.nickname_listbox.pack(side=tk.RIGHT, fill=tk.Y)
+2025-01-31 17:02:18,189 - ERROR - File "/usr/lib/python3.12/tkinter/__init__.py", line 2472, in pack_configure
+2025-01-31 17:02:18,191 - ERROR - self.tk.call(
+2025-01-31 17:02:18,193 - ERROR - _tkinter.TclError: cannot use geometry manager pack inside . which already has slaves managed by grid
+2025-01-31 17:02:23,100 - ERROR - Exception in Tkinter callback
+2025-01-31 17:02:23,106 - ERROR - Traceback (most recent call last):
+2025-01-31 17:02:23,109 - ERROR - File "/usr/lib/python3.12/tkinter/__init__.py", line 1967, in __call__
+2025-01-31 17:02:23,111 - ERROR - return self.func(*args)
+2025-01-31 17:02:23,113 - ERROR - ^^^^^^^^^^^^^^^^
+2025-01-31 17:02:23,115 - ERROR - File "/home/retro/Documents/crudeirc/crudeirc.py", line 275, in <lambda>
+2025-01-31 17:02:23,117 - ERROR - self.root.bind("<F5>", lambda e: self.no_distractions())
+2025-01-31 17:02:23,119 - ERROR - ^^^^^^^^^^^^^^^^^^^^^^
+2025-01-31 17:02:23,121 - ERROR - File "/home/retro/Documents/crudeirc/crudeirc.py", line 317, in no_distractions
+2025-01-31 17:02:23,123 - ERROR - self.nickname_listbox.pack(side=tk.RIGHT, fill=tk.Y)
+2025-01-31 17:02:23,125 - ERROR - File "/usr/lib/python3.12/tkinter/__init__.py", line 2472, in pack_configure
+2025-01-31 17:02:23,127 - ERROR - self.tk.call(
+2025-01-31 17:02:23,129 - ERROR - _tkinter.TclError: cannot use geometry manager pack inside . which already has slaves managed by grid
+2025-01-31 17:18:37,980 - INFO - Connecting to colonq.computer on port 26697
+2025-01-31 17:18:37,984 - INFO - colonq.computer 26697
+2025-01-31 17:18:37,989 - INFO - ['lcolonq', 'crudeirc']
+2025-01-31 17:18:37,991 - INFO - Kick user
+2025-01-31 17:18:37,997 - INFO - Kick user
+2025-01-31 17:18:38,001 - INFO - Kick user
+2025-01-31 17:18:38,012 - INFO - Send file
+2025-01-31 17:20:25,019 - ERROR - Exception in Tkinter callback
+2025-01-31 17:20:25,025 - ERROR - Traceback (most recent call last):
+2025-01-31 17:20:25,026 - ERROR - File "/usr/lib/python3.12/tkinter/__init__.py", line 1967, in __call__
+2025-01-31 17:20:25,026 - ERROR - return self.func(*args)
+2025-01-31 17:20:25,027 - ERROR - ^^^^^^^^^^^^^^^^
+2025-01-31 17:20:25,028 - ERROR - File "/home/retro/Documents/crudeirc/crudeirc.py", line 275, in <lambda>
+2025-01-31 17:20:25,029 - ERROR - self.root.bind("<F5>", lambda e: self.no_distractions())
+2025-01-31 17:20:25,030 - ERROR - ^^^^^^^^^^^^^^^^^^^^^^
+2025-01-31 17:20:25,031 - ERROR - File "/home/retro/Documents/crudeirc/crudeirc.py", line 317, in no_distractions
+2025-01-31 17:20:25,032 - ERROR - self.nickname_listbox.pack(side=tk.RIGHT, fill=tk.Y)
+2025-01-31 17:20:25,033 - ERROR - File "/usr/lib/python3.12/tkinter/__init__.py", line 2472, in pack_configure
+2025-01-31 17:20:25,034 - ERROR - self.tk.call(
+2025-01-31 17:20:25,035 - ERROR - _tkinter.TclError: cannot use geometry manager pack inside . which already has slaves managed by grid
+2025-01-31 17:22:03,437 - INFO - Connecting to colonq.computer on port 26697
+2025-01-31 17:22:03,440 - INFO - colonq.computer 26697
+2025-01-31 17:22:03,441 - INFO - two part: server
+2025-01-31 17:22:03,443 - INFO - two part: server
+2025-01-31 17:22:03,444 - INFO - two part: server
+2025-01-31 17:22:03,445 - INFO - two part: server
+2025-01-31 17:22:03,447 - INFO - two part: server
+2025-01-31 17:22:03,451 - INFO - two part: server
+2025-01-31 17:22:03,452 - INFO - two part: server
+2025-01-31 17:22:03,456 - INFO - two part: server
+2025-01-31 17:22:03,459 - INFO - two part: server
+2025-01-31 17:22:03,460 - INFO - two part: server
+2025-01-31 17:22:03,462 - INFO - two part: server
+2025-01-31 17:22:03,464 - INFO - two part: server
+2025-01-31 17:22:03,467 - INFO - two part: server
+2025-01-31 17:22:03,470 - INFO - two part: server
+2025-01-31 17:22:03,471 - INFO - two part: server
+2025-01-31 17:22:03,474 - INFO - two part: server
+2025-01-31 17:22:03,475 - INFO - two part: server
+2025-01-31 17:22:03,475 - INFO - two part: server
+2025-01-31 17:22:03,478 - INFO - two part: server
+2025-01-31 17:22:03,482 - INFO - two part: server
+2025-01-31 17:22:03,483 - INFO - two part: server
+2025-01-31 17:22:03,487 - INFO - two part: join
+2025-01-31 17:22:03,488 - INFO - two part: server
+2025-01-31 17:22:03,494 - INFO - two part: server
+2025-01-31 17:22:03,505 - INFO - two part: server
+2025-01-31 17:22:03,508 - INFO - two part: server
+2025-01-31 17:22:03,508 - INFO - two part: server
+2025-01-31 17:22:03,509 - INFO - two part: server
+2025-01-31 17:22:03,509 - INFO - two part: server
+2025-01-31 17:22:03,510 - INFO - two part: server
+2025-01-31 17:22:03,510 - INFO - two part: server
+2025-01-31 17:22:03,511 - INFO - two part: server
+2025-01-31 17:22:03,512 - INFO - two part: server
+2025-01-31 17:22:03,512 - INFO - two part: server
+2025-01-31 17:22:03,513 - INFO - two part: server
+2025-01-31 17:22:03,513 - INFO - two part: server
+2025-01-31 17:22:03,514 - INFO - two part: server
+2025-01-31 17:22:03,514 - INFO - two part: server
+2025-01-31 17:22:03,515 - INFO - two part: server
+2025-01-31 17:22:03,515 - INFO - two part: server
+2025-01-31 17:22:03,515 - INFO - two part: server
+2025-01-31 17:22:03,516 - INFO - two part: server
+2025-01-31 17:22:03,516 - INFO - two part: server
+2025-01-31 17:22:03,517 - INFO - two part: server
+2025-01-31 17:22:03,517 - INFO - two part: server
+2025-01-31 17:22:03,518 - INFO - two part: join
+2025-01-31 17:22:03,518 - INFO - two part: server
+2025-01-31 17:22:03,519 - INFO - two part: server
+2025-01-31 17:22:03,519 - INFO - two part: server
+2025-01-31 17:22:03,519 - INFO - two part: server
+2025-01-31 17:22:03,520 - INFO - two part: server
+2025-01-31 17:22:03,521 - INFO - two part: server
+2025-01-31 17:22:03,521 - INFO - two part: server
+2025-01-31 17:22:03,522 - INFO - two part: server
+2025-01-31 17:22:03,522 - INFO - two part: server
+2025-01-31 17:22:03,523 - INFO - two part: server
+2025-01-31 17:22:03,523 - INFO - two part: server
+2025-01-31 17:22:03,524 - INFO - two part: server
+2025-01-31 17:22:03,524 - INFO - two part: server
+2025-01-31 17:22:03,524 - INFO - two part: server
+2025-01-31 17:22:03,525 - INFO - two part: server
+2025-01-31 17:22:03,525 - INFO - two part: server
+2025-01-31 17:22:03,526 - INFO - two part: server
+2025-01-31 17:22:03,526 - INFO - two part: server
+2025-01-31 17:22:03,527 - INFO - two part: server
+2025-01-31 17:22:03,527 - INFO - two part: server
+2025-01-31 17:22:03,527 - INFO - two part: server
+2025-01-31 17:22:03,528 - INFO - two part: server
+2025-01-31 17:22:03,528 - INFO - two part: server
+2025-01-31 17:22:03,529 - INFO - two part: server
+2025-01-31 17:22:03,529 - INFO - two part: server
+2025-01-31 17:22:03,530 - INFO - two part: join
+2025-01-31 17:22:03,530 - INFO - two part: server
+2025-01-31 17:22:03,530 - INFO - two part: server
+2025-01-31 17:22:03,532 - INFO - two part: server
+2025-01-31 17:22:03,533 - INFO - two part: server
+2025-01-31 17:22:03,535 - INFO - two part: server
+2025-01-31 17:22:03,535 - INFO - two part: server
+2025-01-31 17:22:03,537 - INFO - two part: server
+2025-01-31 17:22:03,537 - INFO - two part: server
+2025-01-31 17:22:03,537 - INFO - two part: server
+2025-01-31 17:22:03,538 - INFO - two part: server
+2025-01-31 17:22:03,538 - INFO - two part: server
+2025-01-31 17:22:03,539 - INFO - two part: server
+2025-01-31 17:22:03,539 - INFO - two part: server
+2025-01-31 17:22:03,540 - INFO - two part: server
+2025-01-31 17:22:03,540 - INFO - two part: server
+2025-01-31 17:22:03,540 - INFO - two part: server
+2025-01-31 17:22:03,541 - INFO - two part: server
+2025-01-31 17:22:03,541 - INFO - two part: server
+2025-01-31 17:22:03,542 - INFO - two part: server
+2025-01-31 17:22:03,542 - INFO - two part: server
+2025-01-31 17:22:03,542 - INFO - two part: server
+2025-01-31 17:22:03,543 - INFO - two part: server
+2025-01-31 17:22:03,543 - INFO - two part: server
+2025-01-31 17:22:03,544 - INFO - two part: server
+2025-01-31 17:22:03,544 - INFO - two part: server
+2025-01-31 17:22:03,544 - INFO - two part: server
+2025-01-31 17:22:03,545 - INFO - two part: server
+2025-01-31 17:22:03,545 - INFO - two part: join
+2025-01-31 17:22:03,546 - INFO - two part: server
+2025-01-31 17:22:03,546 - INFO - two part: server
+2025-01-31 17:22:03,546 - INFO - two part: server
+2025-01-31 17:22:03,547 - INFO - two part: server
+2025-01-31 17:22:03,547 - INFO - two part: server
+2025-01-31 17:22:03,548 - INFO - two part: server
+2025-01-31 17:22:03,548 - INFO - two part: server
+2025-01-31 17:22:03,549 - INFO - two part: server
+2025-01-31 17:22:03,549 - INFO - two part: server
+2025-01-31 17:22:03,549 - INFO - two part: server
+2025-01-31 17:22:03,550 - INFO - two part: server
+2025-01-31 17:22:03,550 - INFO - two part: server
+2025-01-31 17:22:03,551 - INFO - two part: server
+2025-01-31 17:22:03,551 - INFO - two part: server
+2025-01-31 17:22:03,552 - INFO - two part: server
+2025-01-31 17:22:03,552 - INFO - two part: server
+2025-01-31 17:22:03,552 - INFO - two part: server
+2025-01-31 17:22:03,553 - INFO - two part: server
+2025-01-31 17:22:03,553 - INFO - two part: server
+2025-01-31 17:22:03,554 - INFO - two part: server
+2025-01-31 17:22:03,554 - INFO - two part: server
+2025-01-31 17:22:03,554 - INFO - two part: server
+2025-01-31 17:22:03,555 - INFO - two part: server
+2025-01-31 17:22:03,555 - INFO - two part: server
+2025-01-31 17:22:03,556 - INFO - two part: server
+2025-01-31 17:22:03,556 - INFO - two part: server
+2025-01-31 17:22:03,557 - INFO - two part: server
+2025-01-31 17:22:03,557 - INFO - two part: server
+2025-01-31 17:22:03,558 - INFO - two part: server
+2025-01-31 17:22:03,558 - INFO - two part: join
+2025-01-31 17:22:03,558 - INFO - ['lcolonq', 'crudeirc']
+2025-01-31 17:22:03,559 - INFO - two part: join
+2025-01-31 17:22:03,559 - INFO - two part: join
+2025-01-31 17:22:03,560 - INFO - two part: join
+2025-01-31 17:22:03,560 - INFO - two part: join
+2025-01-31 17:22:03,560 - INFO - two part: join
+2025-01-31 17:22:03,561 - INFO - two part: join
+2025-01-31 17:22:03,561 - INFO - two part: join
+2025-01-31 17:22:03,562 - INFO - two part: server
+2025-01-31 17:22:03,562 - INFO - two part: server
+2025-01-31 17:22:03,562 - INFO - two part: server
+2025-01-31 17:22:03,563 - INFO - two part: server
+2025-01-31 17:22:03,563 - INFO - two part: server
+2025-01-31 17:22:03,564 - INFO - two part: server
+2025-01-31 17:22:03,565 - INFO - two part: server
+2025-01-31 17:22:03,565 - INFO - two part: server
+2025-01-31 17:22:03,566 - INFO - two part: server
+2025-01-31 17:22:03,566 - INFO - two part: server
+2025-01-31 17:22:03,567 - INFO - two part: server
+2025-01-31 17:22:03,567 - INFO - two part: server
+2025-01-31 17:22:03,568 - INFO - two part: server
+2025-01-31 17:22:03,568 - INFO - two part: server
+2025-01-31 17:22:03,569 - INFO - two part: server
+2025-01-31 17:22:03,569 - INFO - two part: server
+2025-01-31 17:22:03,569 - INFO - two part: server
+2025-01-31 17:22:03,570 - INFO - two part: server
+2025-01-31 17:22:03,570 - INFO - two part: server
+2025-01-31 17:22:03,571 - INFO - two part: server
+2025-01-31 17:22:03,571 - INFO - two part: server
+2025-01-31 17:22:03,571 - INFO - two part: server
+2025-01-31 17:22:03,572 - INFO - two part: server
+2025-01-31 17:22:03,572 - INFO - two part: server
+2025-01-31 17:22:03,573 - INFO - two part: server
+2025-01-31 17:22:03,573 - INFO - two part: server
+2025-01-31 17:22:03,574 - INFO - two part: server
+2025-01-31 17:22:03,574 - INFO - two part: server
+2025-01-31 17:22:03,574 - INFO - two part: server
+2025-01-31 17:22:03,575 - INFO - two part: server
+2025-01-31 17:22:03,575 - INFO - two part: server
+2025-01-31 17:22:03,576 - INFO - two part: server
+2025-01-31 17:22:03,576 - INFO - two part: server
+2025-01-31 17:22:03,576 - INFO - two part: server
+2025-01-31 17:22:03,577 - INFO - two part: server
+2025-01-31 17:22:03,577 - INFO - two part: server
+2025-01-31 17:22:03,578 - INFO - two part: server
+2025-01-31 17:22:03,578 - INFO - two part: server
+2025-01-31 17:22:03,578 - INFO - two part: server
+2025-01-31 17:22:03,579 - INFO - two part: server
+2025-01-31 17:22:03,579 - INFO - two part: join
+2025-01-31 17:22:03,580 - INFO - two part: join
+2025-01-31 17:22:03,580 - INFO - two part: join
+2025-01-31 17:22:03,580 - INFO - two part: join
+2025-01-31 17:22:03,581 - INFO - two part: join
+2025-01-31 17:22:03,581 - INFO - two part: join
+2025-01-31 17:22:03,582 - INFO - two part: join
+2025-01-31 17:22:03,582 - INFO - two part: server
+2025-01-31 17:22:03,582 - INFO - two part: server
+2025-01-31 17:22:03,583 - INFO - two part: server
+2025-01-31 17:22:03,583 - INFO - two part: server
+2025-01-31 17:22:03,584 - INFO - two part: server
+2025-01-31 17:22:03,584 - INFO - two part: server
+2025-01-31 17:22:03,585 - INFO - two part: server
+2025-01-31 17:22:03,585 - INFO - two part: server
+2025-01-31 17:22:03,585 - INFO - two part: server
+2025-01-31 17:22:03,586 - INFO - two part: server
+2025-01-31 17:22:03,586 - INFO - two part: server
+2025-01-31 17:22:03,587 - INFO - two part: server
+2025-01-31 17:22:03,587 - INFO - two part: server
+2025-01-31 17:22:03,588 - INFO - two part: server
+2025-01-31 17:22:03,588 - INFO - two part: server
+2025-01-31 17:22:03,588 - INFO - two part: server
+2025-01-31 17:22:03,589 - INFO - two part: server
+2025-01-31 17:22:03,589 - INFO - two part: server
+2025-01-31 17:22:03,590 - INFO - two part: server
+2025-01-31 17:22:03,590 - INFO - two part: server
+2025-01-31 17:22:03,590 - INFO - two part: server
+2025-01-31 17:22:03,591 - INFO - two part: server
+2025-01-31 17:22:03,591 - INFO - two part: server
+2025-01-31 17:22:03,592 - INFO - two part: server
+2025-01-31 17:22:03,592 - INFO - two part: server
+2025-01-31 17:22:03,592 - INFO - two part: server
+2025-01-31 17:22:03,593 - INFO - two part: server
+2025-01-31 17:22:03,593 - INFO - two part: server
+2025-01-31 17:22:03,594 - INFO - two part: server
+2025-01-31 17:22:03,594 - INFO - two part: server
+2025-01-31 17:22:03,595 - INFO - two part: server
+2025-01-31 17:22:03,595 - INFO - two part: server
+2025-01-31 17:22:03,595 - INFO - two part: server
+2025-01-31 17:22:03,596 - INFO - two part: server
+2025-01-31 17:22:03,596 - INFO - two part: server
+2025-01-31 17:22:03,597 - INFO - two part: server
+2025-01-31 17:22:03,597 - INFO - two part: server
+2025-01-31 17:22:03,598 - INFO - two part: server
+2025-01-31 17:22:03,598 - INFO - two part: server
+2025-01-31 17:22:03,599 - INFO - two part: server
+2025-01-31 17:22:03,599 - INFO - two part: server
+2025-01-31 17:22:03,600 - INFO - two part: server
+2025-01-31 17:22:03,600 - INFO - two part: server
+2025-01-31 17:22:03,601 - INFO - two part: server
+2025-01-31 17:22:03,601 - INFO - two part: server
+2025-01-31 17:22:03,601 - INFO - two part: server
+2025-01-31 17:22:03,602 - INFO - two part: server
+2025-01-31 17:22:03,602 - INFO - two part: server
+2025-01-31 17:22:03,603 - INFO - two part: join
+2025-01-31 17:22:03,603 - INFO - two part: join
+2025-01-31 17:22:03,604 - INFO - two part: join

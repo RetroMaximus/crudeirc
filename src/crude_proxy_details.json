@@ -1,19 +1,22 @@
 {
-    "active_details": {
-        "show_traceback_results": true,
-        "show_username_addresses": true,
-        "show_server_addresses": true,
-        "show_server_response_type": true,
-        "name": "",
-        "server": "",
-        "port": "",
-        "ssl": false,
-        "nickname": "",
-        "username": "",
-        "realname": "",
-        "auto_connect": false,
-        "proxy_details": {}
-    },
     "proxies": {
+        "": {
+            "name": {},
+            "host": {},
+            "type": {},
+            "port": {}
+        },
+        "tst": {
+            "name": {},
+            "host": {},
+            "type": {},
+            "port": {}
+        }
+    },
+    "active_details": {
+        "name": {},
+        "host": {},
+        "type": {},
+        "port": {}
     }
 }

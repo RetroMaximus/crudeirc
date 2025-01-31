@@ -1,0 +1,4 @@
+2025-01-31 16:32:36,996 - ERROR - Traceback (most recent call last):
+2025-01-31 16:32:36,996 - ERROR - File "/home/retro/Documents/crudeirc/crudeirc.py", line 24, in <module>
+2025-01-31 16:32:36,997 - ERROR - from PIL import Image, ImageTk
+2025-01-31 16:32:36,998 - ERROR - ImportError: cannot import name 'ImageTk' from 'PIL' (/usr/lib/python3/dist-packages/PIL/__init__.py). Did you mean: 'Image'?

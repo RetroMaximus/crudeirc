@@ -103,12 +103,12 @@ class SettingsWindow:
 		# Add frames to notebook
 		self.notebook.add(self.server_frame, text='Server')
 		self.notebook.add(self.proxy_frame, text='Proxy')
-		self.notebook.add(self.script_editor_frame, text='Script Editor')
-		self.notebook.add(self.appearance_frame, text='Appearance')
-		self.notebook.add(self.local_info_frame, text='Local Info')
-		self.notebook.add(self.options_frame, text='Options')
-		self.notebook.add(self.identd_frame, text='Identd')
-		self.notebook.add(self.firewall_frame, text='Firewall')
+		#self.notebook.add(self.script_editor_frame, text='Script Editor')
+		#self.notebook.add(self.appearance_frame, text='Appearance')
+		#self.notebook.add(self.local_info_frame, text='Local Info')
+		#self.notebook.add(self.options_frame, text='Options')
+		#self.notebook.add(self.identd_frame, text='Identd')
+		#self.notebook.add(self.firewall_frame, text='Firewall')
 		self.notebook.add(self.debug_frame, text='Debug')
 		
 		# Populate the frames
@@ -412,6 +412,8 @@ class SettingsWindow:
 		details = self.collect_server_details()
 		self.server_details_manager.set_server_details(server_name, details)
 		self.server_list_dropdown.configure(values=list(self.server_details_manager.server_details.get('servers', {}).keys()))
+
+		
 	
 	def apply_server_changes(self):
 		server_name = self.server_list_dropdown.get()

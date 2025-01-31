@@ -1,35 +1,49 @@
 {
-    "server_details": [],
+    "servers": {
+        "lcolonq": {
+            "show_traceback_results": true,
+            "show_username_addresses": false,
+            "show_server_addresses": true,
+            "show_server_response_type": false,
+            "name": "lcolonq",
+            "server": "colonq.computer",
+            "port": "26697",
+            "ssl": true,
+            "nickname": "retromaximusplays",
+            "username": "retromaximus",
+            "realname": "ligmabaws",
+            "auto_connect": false,
+            "proxy_details": {}
+        },
+        "crudeirc": {
+            "show_traceback_results": false,
+            "show_username_addresses": false,
+            "show_server_addresses": false,
+            "show_server_response_type": false,
+            "name": "crudeirc",
+            "server": "crudeserver.duckdns.org",
+            "port": "6667",
+            "ssl": false,
+            "nickname": "retromaximus",
+            "username": "retromaximusplays",
+            "realname": "ligma",
+            "auto_connect": false,
+            "proxy_details": {}
+        }
+    },
     "active_details": {
         "show_traceback_results": true,
         "show_username_addresses": false,
         "show_server_addresses": true,
         "show_server_response_type": false,
-        "name": "colonq",
+        "name": "lcolonq",
         "server": "colonq.computer",
         "port": "26697",
         "ssl": true,
-        "nickname": "retromaximus",
-        "username": "retromaximusplays",
-        "realname": "LIGMABAWS",
-        "auto_connect": true,
+        "nickname": "retromaximusplays",
+        "username": "retromaximus",
+        "realname": "ligmabaws",
+        "auto_connect": false,
         "proxy_details": {}
-    },
-    "servers": {
-        "colonq": {
-            "show_traceback_results": true,
-            "show_username_addresses": false,
-            "show_server_addresses": true,
-            "show_server_response_type": false,
-            "name": "colonq",
-            "server": "colonq.computer",
-            "port": "26697",
-            "ssl": true,
-            "nickname": "retromaximus",
-            "username": "retromaximusplays",
-            "realname": "LIGMABAWS",
-            "auto_connect": true,
-            "proxy_details": {}
-        }
     }
 }

@@ -132,13 +132,10 @@ class CrudeIRC:
         self.details_manager.load_server_details()
         self.details_manager.load_proxy_details()
         
-
-
         self.active_details = self.details_manager.get_active_details()
         # print("active details:",self.active_details)
 
         self.active_proxy_details = self.details_manager.get_active_proxy_details()
-        
         
         #print(self.details_manager.get_active_details())
         self.show_tracback_results = self.active_details["show_traceback_results"]
@@ -182,7 +179,7 @@ class CrudeIRC:
         self.menu_bar = tk.Menu(self.root)
         #self.menu_bar.configure(background="#36454f", borderwidth=-1)
         self.root.config(menu=self.menu_bar)
-        self.root.config(background="#36454f", borderwidth=-1)
+        self.root.config(background="#36454f", borderwidth=0)
         
         self.file_menu = tk.Menu(self.menu_bar, tearoff=0)
         self.menu_bar.add_cascade(label="File", menu=self.file_menu)
@@ -222,16 +219,16 @@ class CrudeIRC:
         
         self.nickname_listbox = tk.Listbox(self.root)
         self.nickname_listbox.grid(row=1, column=1, sticky="ns", padx=5, pady=5)
-        self.nickname_listbox.configure(font=self.nerd_font, background="#36454f", foreground="#eeeeee", borderwidth=-1, relief="flat")
+        self.nickname_listbox.configure(font=self.nerd_font, background="#36454f", foreground="#eeeeee", borderwidth=0, relief="flat")
         
         self.entry_frame = tk.Frame(self.root)
         self.entry_frame.grid(row=2, column=0, columnspan=2, sticky="ew", pady=0)
-        self.entry_frame.configure(background="#36454f", borderwidth=-1, relief="flat")
+        self.entry_frame.configure(background="#36454f", borderwidth=0, relief="flat")
         
         self.entry = tk.Entry(self.entry_frame)
         self.entry.grid(row=0, column=0, sticky="ew", padx=(5,0),pady=(0,5))
         self.entry.bind("<Return>", self.send_message)
-        self.entry.configure(font=self.nerd_font, background="#36454f", foreground="#eeeeee", borderwidth=-1, relief="flat")
+        self.entry.configure(font=self.nerd_font, background="#36454f", foreground="#eeeeee", borderwidth=0, relief="flat")
         
         self.send_button = tk.Button(self.entry_frame, text="Send", command=self.send_message)
         self.send_button.grid(row=0, column=1, sticky="e", padx=(0,5), pady=(0,5))
@@ -406,10 +403,10 @@ class CrudeIRC:
         
         old_font = self.text_area.cget("font")
         
-        self.text_area_menu.configure(font=old_font, background="#36454f", foreground="#eeeeee", borderwidth=-1)
-        self.nickname_list_menu.configure(font=old_font, background="#36454f", foreground="#eeeeee", borderwidth=-1)
-        self.chanserv_menu.configure(font=old_font, background="#36454f", foreground="#eeeeee", borderwidth=-1)
-        self.nickserv_menu.configure(font=old_font, background="#36454f", foreground="#eeeeee", borderwidth=-1)
+        self.text_area_menu.configure(font=old_font, background="#36454f", foreground="#eeeeee", borderwidth=0)
+        self.nickname_list_menu.configure(font=old_font, background="#36454f", foreground="#eeeeee", borderwidth=0)
+        self.chanserv_menu.configure(font=old_font, background="#36454f", foreground="#eeeeee", borderwidth=0)
+        self.nickserv_menu.configure(font=old_font, background="#36454f", foreground="#eeeeee", borderwidth=0)
     
     def show_text_area_menu(self, event):
         try:
@@ -636,7 +633,8 @@ class CrudeIRC:
     @staticmethod
     def get_project_dir():
         root_path = os.path.dirname(os.path.abspath(__file__))
-        root_path = root_path.replace("/src","")
+        
+        #root_path = root_path.replace("/src","")
         #print(root_path)
         logging.info("Dir: {root_path}")
         #return os.path.dirname(os.path.abspath(root_path))
@@ -1085,66 +1083,27 @@ class CrudeIRC:
         # Update from buffer to add colors to self.text_area
         buffer_name = list(self.response_buffers.keys())[self.viewing_buffer_index].replace("#", "")
         text_content = self.response_buffers[buffer_name]
+        
+        self.nickname_listbox.delete(1.0, tk.END)
         self.text_area.config(state=tk.NORMAL)
         self.text_area.delete(1.0, tk.END)
         # Split the content and apply tags
         for line in text_content.split("\n"):
             if line:
                 parts = line.split(" - ", 1)
-
-                if parts[0] == "channel - :" and parts[1] not in self.nickname_listbox.get(0, tk.END):
-                    self.nickname_listbox.insert(tk.END, parts[0])
-
-                # iterate self.nickname_listbox get the text color of each item. match the nickname to the color and apply the color to
-                # the font of the matching text for the self.text_line
-                text_color = ""
-                for index, nickname in enumerate(self.nickname_listbox.get(0, tk.END)):
-                    
-                    if len(parts) > 2:
-                        if nickname == parts[0] or nickname == parts[1]:
-                            text_color = self.nickname_colors[buffer_name][index]
-                            self.nickname_buffers[buffer_name].append(nickname)
-                            self.populate_from_nickname_buffer(buffer_name)
-                        else:
-                            text_color = self.nickname_colors[buffer_name][index]
-                            self.nickname_buffers[buffer_name].append(nickname)
-                            self.populate_from_nickname_buffer(buffer_name)
-                    else:
-                        if nickname == parts[0]:
-                            text_color = self.nickname_colors[buffer_name][index]
-                            self.nickname_buffers[buffer_name].append(nickname)
-                            self.populate_from_nickname_buffer(buffer_name)
-                        else:
-                            text_color = self.nickname_colors[buffer_name][index]
-                            self.nickname_buffers[buffer_name].append(nickname)
-                            self.populate_from_nickname_buffer(buffer_name)
-
-
-                    # Get the content of the text widget as a string
-                    # text_content = self.text_area.get("1.0", tk.END)
-                    match = re.search(r'\b' + re.escape(nickname) + r'\b', text_content)
-                    
-                    if match:
-                        start_index = match.start()
-                        end_index = match.end()
-                        start_line = text_content.count("\n", 0, start_index) + 1
-                        start_column = start_index - text_content.rfind("\n", 0, start_index)
-                        end_line = text_content.count("\n", 0, end_index) + 1
-                        end_column = end_index - text_content.rfind("\n", 0, end_index)
-                        
-                        self.text_area.tag_add(text_color, f"{start_line}.{start_column}", f"{end_line}.{end_column}")
-                    else:
-                        random_color = self.get_color_for_nickname()
-                        self.text_area.tag_add(random_color, f"{index + 1}.0", f"{index + 1}.{len(nickname)}")
-
+                                
                 if len(parts) == 2:
+                    if parts[0] == "channel - :" and parts[1] not in self.nickname_listbox.get(0, tk.END):
+                        self.nickname_listbox.insert(tk.END, parts[0])
+                        #self.text_area.insert(tk.END, f'{self.line.replace("channel - :", "").replace("server - :", "")}\n', self.nick_tag,)
+                    
                     self.part_len = len(parts)
                     self.nick_tag, message = parts
-                    print("two part:", parts[0])
+                    #print("two part:", parts[0])
                     if parts[0] == "channel":
                         self.last_line = line
                         self.text_area.insert(tk.END, f'{self.last_line.replace("channel - :", "").replace("server - :", "")}\n', self.nick_tag,)
-                        print(self.nick_tag)
+                        print("NICAK TAG:",self.nick_tag)
                     elif parts[0] == "server":
                         self.last_line = line
                         self.text_area.insert(tk.END, f'{self.last_line.replace("server - :", "").replace("server - :", "")}\n', self.nick_tag,)
@@ -1157,6 +1116,7 @@ class CrudeIRC:
                         self.text_area.insert(tk.END, f'{self.last_line.replace("ping - :", "").replace("server - :", "")}\n', self.nick_tag,)
 
                 else:
+                    print("populate line:", line)
                     self.part_len = len(parts)
                     #print("not two parts", parts[0])
                     if parts[0] == None or parts[0] == "None" or parts[0] == "error":
@@ -1165,6 +1125,79 @@ class CrudeIRC:
                         self.last_line = line
                     
                     self.text_area.insert(tk.END, f'{self.last_line.replace("channel - :", "").replace("server - :", "")}\n', self.nick_tag,)
+
+
+                # iterate self.nickname_listbox get the text color of each item. match the nickname to the color and apply the color to
+                # the font of the matching text for the self.text_line
+                text_color = ""
+#                for index, nickname in enumerate(self.nickname_listbox.get(0, tk.END)):
+#                    
+#                    if len(parts) > 2:
+#                        if nickname == parts[0] or nickname == parts[1]:
+#                            text_color = self.nickname_colors[buffer_name][index]
+#                            self.nickname_buffers[buffer_name].append(nickname)
+#                            self.populate_from_nickname_buffer(buffer_name)
+#                        else:
+#                            text_color = self.nickname_colors[buffer_name][index]
+#                            self.nickname_buffers[buffer_name].append(nickname)
+#                            self.populate_from_nickname_buffer(buffer_name)
+#                    else:
+#                        if nickname == parts[0]:
+#                            text_color = self.nickname_colors[buffer_name][index]
+#                            self.nickname_buffers[buffer_name].append(nickname)
+#                            self.populate_from_nickname_buffer(buffer_name)
+#                        else:
+#                            text_color = self.nickname_colors[buffer_name][index]
+#                            self.nickname_buffers[buffer_name].append(nickname)
+#                            self.populate_from_nickname_buffer(buffer_name)
+#
+#
+#                    # Get the content of the text widget as a string
+#                    # text_content = self.text_area.get("1.0", tk.END)
+#                    match = re.search(r'\b' + re.escape(nickname) + r'\b', text_content)
+#                    print("matching:", match)
+#                    if match:
+#                        start_index = match.start()
+#                        end_index = match.end()
+#                        start_line = text_content.count("\n", 0, start_index) + 1
+#                        start_column = start_index - text_content.rfind("\n", 0, start_index)
+#                        end_line = text_content.count("\n", 0, end_index) + 1
+#                        end_column = end_index - text_content.rfind("\n", 0, end_index)
+#                        
+#                        self.text_area.tag_add(text_color, f"{start_line}.{start_column}", f"{end_line}.{end_column}")
+#                    else:
+#                        random_color = self.get_color_for_nickname()
+#                        self.text_area.tag_add(random_color, f"{index + 1}.0", f"{index + 1}.{len(nickname)}")
+#
+#                if len(parts) == 2:
+#                    self.part_len = len(parts)
+#                    self.nick_tag, message = parts
+#                    print("two part:", parts[0])
+#                    if parts[0] == "channel":
+#                        self.last_line = line
+#                        self.text_area.insert(tk.END, f'{self.last_line.replace("channel - :", "").replace("server - :", "")}\n', self.nick_tag,)
+#                        print(self.nick_tag)
+#                    elif parts[0] == "server":
+#                        self.last_line = line
+#                        self.text_area.insert(tk.END, f'{self.last_line.replace("server - :", "").replace("server - :", "")}\n', self.nick_tag,)
+#                    elif parts[0] == "ping":
+#                        self.last_line = line
+#                        self.text_area.insert(tk.END, f'{self.last_line.replace("ping - :", "").replace("server - :", "")}\n', self.nick_tag,)
+#                    elif parts[0] == None or parts[0] == "None" or parts[0] == "error":
+#                        
+#                        self.last_line = line
+#                        self.text_area.insert(tk.END, f'{self.last_line.replace("ping - :", "").replace("server - :", "")}\n', self.nick_tag,)
+#
+#                else:
+#                    print("populate line:", line)
+#                    self.part_len = len(parts)
+#                    #print("not two parts", parts[0])
+#                    if parts[0] == None or parts[0] == "None" or parts[0] == "error":
+#                        self.last_line = line
+#                    else:
+#                        self.last_line = line
+#                    
+#                    self.text_area.insert(tk.END, f'{self.last_line.replace("channel - :", "").replace("server - :", "")}\n', self.nick_tag,)
        
         self.text_area.config(state=tk.DISABLED)
         self.text_area.yview(tk.END)
