@@ -8,3 +8,7 @@
 2025-01-31 17:37:26,446 - INFO - NICAK TAG: channel
 2025-01-31 17:37:26,448 - INFO - NICAK TAG: channel
 2025-01-31 17:37:26,449 - INFO - NICAK TAG: channel
+2025-01-31 18:25:52,125 - ERROR - Traceback (most recent call last):
+2025-01-31 18:25:52,316 - ERROR - File "/home/retro/Documents/crudeirc/crudeirc.py", line 24, in <module>
+2025-01-31 18:25:52,318 - ERROR - from PIL import Image, ImageTk
+2025-01-31 18:25:52,319 - ERROR - ImportError: cannot import name 'ImageTk' from 'PIL' (/usr/lib/python3/dist-packages/PIL/__init__.py). Did you mean: 'Image'?
