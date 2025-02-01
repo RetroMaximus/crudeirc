@@ -5,7 +5,7 @@ LOG_DIR="logs"
 mkdir -p "$LOG_DIR"
 
 # Define log file with timestamp
-LOG_FILE="$LOG_DIR/$(date +"%Y-%m-%d")_app.log"
+LOG_FILE="$LOG_DIR/crudeirc-$(date +"%Y-%m-%d").log"
 
 # Function to log messages
 log_message() {
@@ -72,8 +72,8 @@ fi
 # Run the Python application
 log_message "Running application..."
 echo "Running application..."
-crudetrace crudeirc.py
-#python crudeirc.py "$@" >> "$LOG_FILE" 2>&1
+#crudetrace crudeirc.py
+python crudeirc.py "$@" >> "$LOG_FILE" 2>&1
 
 # Wait for user input before closing
 log_message "Application finished. Waiting for user input before exiting..."
