@@ -574,7 +574,7 @@ class CrudeIRC:
             realname = active_details["realname"]
             auto_connect = active_details["auto_connect"]
             
-            print(f"Connecting to {self.server} on port {self.port}")
+            #print(f"Connecting to {self.server} on port {self.port}")
             
             #self.irc_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
             #self.irc_socket.connect((self.server, self.port))
@@ -1116,7 +1116,7 @@ class CrudeIRC:
                         self.text_area.insert(tk.END, f'{self.last_line.replace("ping - :", "").replace("server - :", "")}\n', self.nick_tag,)
 
                 else:
-                    print("populate line:", line)
+                    #print("populate line:", line)
                     self.part_len = len(parts)
                     #print("not two parts", parts[0])
                     if parts[0] == None or parts[0] == "None" or parts[0] == "error":

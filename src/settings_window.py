@@ -131,7 +131,7 @@ class SettingsWindow:
 			server_names = []
 		
 		self.server_list_dropdown = ttk.Combobox(self.server_frame, values=server_names, state="readonly")
-		print(server_names)
+		#print(server_names)
 		self.server_list_dropdown.grid(row=0, column=1, padx=10, pady=5)
 		self.server_list_dropdown.bind("<<ComboboxSelected>>", self.populate_server_details)
 		
