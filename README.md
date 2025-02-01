@@ -4,6 +4,8 @@ CrudeIRC
 
 CrudeIRC is a lightweight, Tkinter-based IRC client designed for minimalism and functionality. It supports multiple servers, proxy integration, and various UI customization options to enhance user experience.
 
+This client is not complete by any means and very much a *WIP*
+
 Features
 
 Multi-Server Support: Connect to multiple IRC servers and switch between them seamlessly.
@@ -27,7 +29,7 @@ Installation
 
 Clone the repository:
 
-git clone https://github.com/your-repo/crudeirc.git
+git clone https://github.com/RetroMaximus/crudeirc.git
 cd crudeirc
 
 Install dependencies:
@@ -78,7 +80,7 @@ F4: Show/hide nickname list
 
 F5: Toggle distraction-free mode
 
-F6: Open proxy bouncer settings
+F6: Open proxy bouncer settings - (WIP) not working!!!!
 
 
 Logging and Debugging
@@ -114,6 +116,18 @@ Commit your changes: git commit -m "Added new feature"
 Push to your branch: git push origin feature-name
 
 Open a Pull Request.
+
+
+Known Bugs:
+
+- When changing buffers sometimes only the last line that was recieved n the buffer will be displayed.
+    (needs a bit more testing)
+
+- When the a buffer get larger the client might lag (needs a bit more testing)
+
+- Nickname colors are not being displayed in the chat buffer's. Colors will change when switching buffers.
+
+- No settings will populate in the config window until a server is selected.
 
 
 License
