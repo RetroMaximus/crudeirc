@@ -6,6 +6,7 @@ CrudeIRC is a lightweight, Tkinter-based IRC client designed for minimalism and 
 
 This client is not complete by any means and very much a *WIP*
 
+
 Features
 
 Multi-Server Support: Connect to multiple IRC servers and switch between them seamlessly.
@@ -25,7 +26,7 @@ Key Bindings for Navigation: Navigate between chat buffers, adjust font sizes, a
 Settings Window: Manage and configure client preferences conveniently.
 
 
-Installation
+Python Installation:
 
 Clone the repository:
 
@@ -38,7 +39,7 @@ pip install -r requirements.txt
 
 Run the application:
 
-python main.py
+python crudeirc.py
 
 
 Build binary/executable:
